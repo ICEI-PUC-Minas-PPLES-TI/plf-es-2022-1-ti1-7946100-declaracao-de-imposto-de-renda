@@ -1,21 +1,23 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+TRABALHO INTERDISCIPLINAR: APLICAÇÕES WEB
+
+Dificuldade na declaração do Imposto de Renda
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Engenharia de Software
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+Os membros do grupo são: 
+* Henrique Carvalho Almeida
+* Diogo Martins de Assis
+* Mateus Estevão de Souza
+* Davi Cesar Martins e Silva
+* Vítor dos Santos Moreira
+* Pedro Afonso De Campos Faria Maciel
 
 # Estrutura do Documento
 
