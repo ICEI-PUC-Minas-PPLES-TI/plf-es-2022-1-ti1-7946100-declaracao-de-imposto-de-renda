@@ -1,9 +1,7 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-TRABALHO INTERDISCIPLINAR: APLICAÇÕES WEB
-
-Dificuldade na declaração do Imposto de Renda
+Dificuldade na Declaração do Imposto de Renda
 
 `CURSO` 
 
@@ -12,12 +10,13 @@ Engenharia de Software
 ## Participantes
 
 Os membros do grupo são: 
-* Henrique Carvalho Almeida
-* Diogo Martins de Assis
-* Mateus Estevão de Souza
-* Davi Cesar Martins e Silva
-* Vítor dos Santos Moreira
-* Pedro Afonso De Campos Faria Maciel
+
+> - Diogo Martins de Assis
+> - Davi Cesar Martins e Silva
+> - Henrique Carvalho Almeida
+> - Mateus Estevão de Souza
+> - Pedro Afonso De Campos Faria Maciel
+> - Vítor dos Santos Moreira
 
 # Estrutura do Documento
 
@@ -58,71 +57,36 @@ Os membros do grupo são:
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+> A dificuldade que os entrevistados nos mostraram quando abordamos o assunto "Declarar o imposto de renda",
+> foram a falta de informação e a complexa linguagem técnica usada para a declaração. 
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+> O projeto tem como objetivo criar um software onde:
+> - auxilie as pessoas que passam pelas dificudades ditas acima.
+> - apresente de modo dinâmico o assunto estimulando as pessoas a fazerem sozinhas.
+> - informe as consequências de não declarar o imposto de renda e até mesmo.
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+> Durante todo desenvolvimento das crianças e jovens, o Imposto de Renda não é um assunto abordado de maneira direta,
+> o que acaba gerando os problemas ditos acima. Do outro lado, existem vários adultos e idosos que não tem uma afinidade
+> grande com o processo de declarar o Imposto de Renda e acabam pedindo para terceiros, como os contadores, para fazerem por eles. 
 
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+> Jovens que estão entrando na fase adulta e que em um futuro próximo teram que declarar o Imposto de Renda.
+> Adultos que já conhecem, ou não, sobre a declaração e terceirizam por acharem muito complexo.
+> Pessoas de idade avançada onde apresentam uma dificuldade maior para absorver as regras da declaração.
 
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
+ 
 > Adicione informações sobre o público-alvo por meio de uma descrição
 > textual, ou diagramas de personas, mapa de stakeholders, ou como o
 > grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+
+
+
  
 # Especificações do Projeto
 
