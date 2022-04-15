@@ -90,16 +90,16 @@ informações definimos os requisitos funcionais e os não funcionais.
 ## Personas e Mapas de Empatia
 
 ......  COLOQUE AQUI O SEU TEXTO ......
-> João Teodoro da Silva: 
-> 1. Por ser uma pessoa fechada e mais reservada, frustração é seu sentimento quando algo está incorreto o que faz com que não busque 
-> ajuda e sempre recorre a uma solução fácil na internet em vez da ajuda humana.
-> 2. Por sempre recorrer a internet independente do que se trata, sempre tira suas dúvidas na referida, na maioria das vezes recorre a 
-> ferramentas online para resolver problemas de seu dia a dia.
-> 3. Sua rotina é árdua, gerando uma falta de tempo para resolver problemas em seu próprio convívio social, seja desde prazos de entrega
-> até a questões financeiras.
-> 4. João é competente e proativo durante o trabalho que justifica sua simpatia, seja pelo próximo ou pelo o que faz, o que mostra ser uma pessoa
-> de difícil desistência.
-> 
+> João Teodoro da Silva, 68 anos, professor universitário: 
+> 1. Possui rotina árdua, com planilhas a preencher, prazos de entregas a cumprir, colegas de trabalho para ajudar,
+> o que justifica sua própria personalidade reservada e simpática, raramente busca ajuda humana em seus quesitos, gostando de ajudar
+> mas nunca procura ser ajudado.
+> 2. Sua falta de tempo mostra que situações de sua vida própria vida social sejam colocadas em segundo plano, mostrando foco
+> no profissional.
+> 3. Busca constantemente links úteis na internet, ferramentas e dados esclarecidos, demonstrando confiança em sites e em aplicativos online,
+> tem anseio pelo saber.
+> 4. É muito elogiado em sua área, mas quando se trata do mundo da internet deixa a desejar, sempre necessitando de tutoriais e ferramentas para
+> resolver problemas de seu dia a dia.
 
 > Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
 > você deve ser enumerar e descrever precisamente e de forma
