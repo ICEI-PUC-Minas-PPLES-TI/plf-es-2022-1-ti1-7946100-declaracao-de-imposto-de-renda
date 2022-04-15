@@ -81,20 +81,11 @@ Os membros do grupo são:
 > Pessoas de idade avançada onde apresentam uma dificuldade maior para absorver as regras da declaração.
 
  
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-
-
-
- 
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+Coletamos informações atraves de entrevistas feitas pelo google forms onde a partir delas conseguimos d
+eterminar personas e desenhar seus respectivos mapas de empatia. Juntando as ideias com essas novas 
+informações definimos os requisitos funcionais e os não funcionais.
 
 ## Personas e Mapas de Empatia
 
