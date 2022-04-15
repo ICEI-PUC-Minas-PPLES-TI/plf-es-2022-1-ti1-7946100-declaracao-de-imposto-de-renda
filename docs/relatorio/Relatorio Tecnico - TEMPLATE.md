@@ -115,14 +115,16 @@ informações definimos os requisitos funcionais e os não funcionais.
 
 ## Histórias de Usuários
 
-> Eu como professor universitário, uma ferramenta online capaz de me instruir e de me esclarecersobre requisitos necessários da declaração de imposto de renda
-> seria muito útil e de grande ajuda pois meu tempo é limitado aos meus afazeres profissionais e domésticos, não possuo nínguem para me ajudar.
+> Eu como professor universitário, uma ferramenta online capaz de me instruir e de me esclarecer sobre requisitos necessários da declaração de imposto de renda
+> seria muito útil e de grande ajuda para reduzir meu tempo gasto pois o mesmo é limitado aos meus afazeres profissionais e domésticos, não possuo nínguem para me
+> ajudar.
 
-> Eu como técnico de T.I, um site capaz de me dizer o que fazer para declarar meu imposto corretamente seria algo necessário tanto para minha vida pessoal quanto pro 
-> acervo de conhecimento que eu iria adquirir com tal ferramente, pois não possuo tanta experiência com atividades financeiras.
+> Eu como técnico de T.I, preciso de um site capaz de me dizer o que fazer para declarar meu imposto corretamente para me auxiliar na parte financeira pois
+> não possuo tanta experiência e nem conhecimento nessa área.
 
-> Eu como estudante de economia e investidora, necessito de uma ferramenta que me ajude a declarar com facilidade meus investimentos e minha rentabilidade anual, 
-> com esclarecimento de dados necessários, direcionamento correto com base em meu perfil e ferramentas auxiliares. 
+> Eu como estudante de economia e investidora, preciso  de uma ferramenta que me ajude a declarar com facilidade meus investimentos e minha rentabilidade anual, 
+> com esclarecimento de dados necessários, direcionamento correto com base em meu perfil e ferramentas auxiliares, para que minhas declarações sejam feitas de 
+> maneira correta e assim aprendendo como é feito uma declaração.
 
 ## Requisitos
 
