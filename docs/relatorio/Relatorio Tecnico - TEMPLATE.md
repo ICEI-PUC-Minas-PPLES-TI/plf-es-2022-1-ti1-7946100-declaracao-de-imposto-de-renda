@@ -115,23 +115,14 @@ informações definimos os requisitos funcionais e os não funcionais.
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+> Eu como professor universitário, uma ferramenta online capaz de me instruir e de me esclarecersobre requisitos necessários da declaração de imposto de renda
+> seria muito útil e de grande ajuda pois meu tempo é limitado aos meus afazeres profissionais e domésticos, não possuo nínguem para me ajudar.
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+> Eu como técnico de T.I, um site capaz de me dizer o que fazer para declarar meu imposto corretamente seria algo necessário tanto para minha vida pessoal quanto pro 
+> acervo de conhecimento que eu iria adquirir com tal ferramente, pois não possuo tanta experiência com atividades financeiras.
 
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+> Eu como estudante de economia e investidora, necessito de uma ferramenta que me ajude a declarar com facilidade meus investimentos e minha rentabilidade anual, 
+> com esclarecimento de dados necessários, direcionamento correto com base em meu perfil e ferramentas auxiliares. 
 
 ## Requisitos
 
