@@ -91,15 +91,12 @@ informações definimos os requisitos funcionais e os não funcionais.
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 > João Teodoro da Silva, 68 anos, professor universitário: 
-> 1. Possui rotina árdua, com planilhas a preencher, prazos de entregas a cumprir, colegas de trabalho para ajudar,
-> o que justifica sua própria personalidade reservada e simpática, raramente busca ajuda humana em seus quesitos, gostando de ajudar
-> mas nunca procura ser ajudado.
-> 2. Sua falta de tempo mostra que situações de sua vida própria vida social sejam colocadas em segundo plano, mostrando foco
-> no profissional.
-> 3. Busca constantemente links úteis na internet, ferramentas e dados esclarecidos, demonstrando confiança em sites e em aplicativos online,
-> tem anseio pelo saber.
-> 4. É muito elogiado em sua área, mas quando se trata do mundo da internet deixa a desejar, sempre necessitando de tutoriais e ferramentas para
-> resolver problemas de seu dia a dia.
+> 1. Muito competente em seu trabalho, mas na questão financeira deixa a desejar.
+> 2. Possui rotina árdua, com prazos de entrega a cumprir, e colegas de trabalho para a ajudar.
+> 3. Sua personalidade reservada e introvertida o impede de buscar a ajuda humana para questões de seu próprio meio social.
+> 4. Uma ferramenta online, seja site ou aplicativo, o ajudaria e muito em questões administrativas de sua vida pessoal desde que a mesma
+> esclaressa corretamente dados a serem entendidos e expliquem determinados termos.
+
 
 > Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
 > você deve ser enumerar e descrever precisamente e de forma
