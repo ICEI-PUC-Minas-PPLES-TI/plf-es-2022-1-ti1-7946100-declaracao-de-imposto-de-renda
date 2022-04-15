@@ -94,9 +94,25 @@ informações definimos os requisitos funcionais e os não funcionais.
 > 1. Muito competente em seu trabalho, mas na questão financeira deixa a desejar.
 > 2. Possui rotina árdua, com prazos de entrega a cumprir, e colegas de trabalho para a ajudar.
 > 3. Sua personalidade reservada e introvertida o impede de buscar a ajuda humana para questões de seu próprio meio social.
-> 4. Uma ferramenta online, seja site ou aplicativo, o ajudaria e muito em questões administrativas de sua vida pessoal desde que a mesma
-> esclaressa corretamente dados a serem entendidos e expliquem determinados termos.
+> 4. Uma ferramenta online, seja site ou aplicativo, o ajudaria e muitas em questões de declaração de imposto de renda desde que a mesma
+> esclaressa corretamente dados a serem entendidos e expliquem determinados termos, o que poupa tempo e não afetando seu meio profissional.
 
+> Ricardo Martins Xavier, 36 anos, técnico de T.I:
+> 1. Produz soluções práticas de grande impacto, tem colegas que o ajudam e gosta de ajudar, não acredita que seus dados na internet estão realmente seguros.
+> 2. Possui grande conhecimento na área de desenvolvimento de programas de computador, mas deixa a desejar na área administrativo-financeira.
+> 3. Sua personalidade bem humorada o permite ter boas relações sociais, sempre busca ajuda da internet resoluções para seus problemas, sejam de sua própria 
+> profissão quanto para seus problemas do dia a dia.
+> 4. Por deixar a desejar em questões de conhecimento financeiro, procura uma ferramenta, com linguagem acessível e links úteis para compreender como declarar
+> um imposto de renda.
+
+> Elizabeth Clara Lima, 22 anos, estudante de economia:
+> 1. Busca seu próprio desenvolvimento pessoal, sempre buscando informações úteis na internet.
+> 2. Considera a declaração de imposto uma mera formalidade e que acredita que receita já saiba todos seus tributos, mas a considera necessária, já que há
+> consequências para a não declaração.
+> 3. Sua personalidade orgulhosa e racional justifica seu empenho para buscar soluções rápidas, possui uma mente aberta, mas quando recebe críticas não
+> recebe de bom grado, mas no final acaba absorvendo e aceitando.
+> 4. Por ser investidora, uma ferramenta fácil de manusear no quesito declaração de imposto de venda seria uma mão na roda quando se trata da complexidade
+> da declaração quando se trata de demonstrar seus investimentos e sua rentabilidade anual.
 
 > Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
 > você deve ser enumerar e descrever precisamente e de forma
