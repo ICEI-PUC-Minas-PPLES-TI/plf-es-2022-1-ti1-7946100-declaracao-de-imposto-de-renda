@@ -83,9 +83,9 @@ Os membros do grupo são:
  
 # Especificações do Projeto
 
-Coletamos informações atraves de entrevistas feitas pelo google forms onde a partir delas conseguimos d
-eterminar personas e desenhar seus respectivos mapas de empatia. Juntando as ideias com essas novas 
-informações definimos os requisitos funcionais e os não funcionais.
+> Coletamos informações atraves de entrevistas feitas pelo google forms onde a partir delas conseguimos d
+> eterminar personas e desenhar seus respectivos mapas de empatia. Juntando as ideias com essas novas 
+> informações definimos os requisitos funcionais e os não funcionais.
 
 ## Personas e Mapas de Empatia
 
@@ -122,7 +122,7 @@ informações definimos os requisitos funcionais e os não funcionais.
 > Eu como técnico de T.I, preciso de um site capaz de me dizer o que fazer para declarar meu imposto corretamente para me auxiliar na parte financeira pois
 > não possuo tanta experiência e nem conhecimento nessa área.
 
-> Eu como estudante de economia e investidora, preciso  de uma ferramenta que me ajude a declarar com facilidade meus investimentos e minha rentabilidade anual, 
+> Eu como estudante de economia e investidora, preciso de uma ferramenta para declarar com facilidade meus investimentos e minha rentabilidade anual, 
 > com esclarecimento de dados necessários, direcionamento correto com base em meu perfil e ferramentas auxiliares, para que minhas declarações sejam feitas de 
 > maneira correta e assim aprendendo como é feito uma declaração.
 
@@ -134,55 +134,36 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Fazer uma eliminação para definir se a pessoa está dentro do nicho de quem precisa declarar ou não | ALTA | 
+|RF-002| Permitir que o usuário faça uma simulação do Imposto de Renda | ALTA |
+|RF-003| Fornecer acessibilidade as informações referentes a declaração | ALTA |
+|RF-004| Indicar para o cliente quais investimentos são necessários declarar e como declarar os mesmos | ALTA |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | BAIXO | 
+|RNF-002| Fornecer dados com uma certa facilidade para compreender | MÉDIO | 
+|RNF-003| Segurança de dados sigilosos dos usuarios | MÉDIO |
 
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-> 
-> **Links Úteis**:
-> 
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
+!!!!!!
+ Com base nas Histórias de Usuário, enumere os requisitos da sua solução
+ Lembre-se que cada requisito deve corresponder à uma e somente uma
+ característica alvo da sua solução. Além disso, certifique-se de que
+ todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+!!!!!!
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|ID| Restrição                                                             |
+|--|-----------------------------------------------------------------------|
+|01| Todo o projeto usando somente frontend |
+|02| Não podemos utilizar nenhum banco de dados para manter os dados do cliente sigilosos |
 
 
 # Projeto de Interface
