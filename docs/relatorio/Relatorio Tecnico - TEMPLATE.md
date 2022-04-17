@@ -196,7 +196,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Wireframes
 
->![Wireframe](docs/relatorio/images/wireframedip (1).jpg)
+>![Wireframe](images/wireframedip (1).jpg)
 
 
 # Metodologia
