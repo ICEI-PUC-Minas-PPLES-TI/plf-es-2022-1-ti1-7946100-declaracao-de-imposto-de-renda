@@ -196,7 +196,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Wireframes
 
->![Wireframe](images/wireframedip (1).jpg)
+>![Wireframe](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-declaracao-de-imposto-de-renda/blob/master/docs/relatorio/images/wireframedip%20(1).jpg)
 
 
 # Metodologia
