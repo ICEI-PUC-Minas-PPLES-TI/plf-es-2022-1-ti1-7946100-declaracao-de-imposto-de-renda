@@ -205,7 +205,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-| Repositório de código | GitHub | https://github.com/XXXXXXX |
+| Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-declaracao-de-imposto-de-renda/tree/master/codigo |
 | Comunicação | Discord | https://discord.com/ |
 | Processo de Design Thinking  | Miro |  https://miro.com/app/board/uXjVOA2lxqk= | 
 | Wireframe | Uizard  | https://app.uizard.io/prototypes/LWwYG0A38qiLw6PJ3gBx |
