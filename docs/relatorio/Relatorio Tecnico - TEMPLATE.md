@@ -183,7 +183,12 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 
 # Metodologia
-
+ 
+> Nosso Processo de Design foi dividido em três partes, reuniões presenciais, reuniões online e incrementação ao Design Thinking.
+> Inicialmente, iniciamos com reuniões presenciais todos os dias após as aulas para discutirmos superficialmente sobre uma solução para o nosso problema,
+> BrainStorm, uma pessoa do grupo foi responsável por preencher de pouco a pouco o BrainStorm devido a disponilidade de horário.
+> Nas reuniões online tivemos nosso ponta-pé inicial para o Design Thinking, começamos com incrementações de cada membro do grupo, no detalhamento
+> de cada ideia, discutindo em cima de cada uma para procurar a melhor solução para nosso projeto.
 > A metodologia adotada pelo grupo foi a Scrum, onde tivemos o planejamento iterativo e após isso a incrementação ao Design Thinking
 > com a colaboração de cada membro do grupo.
 > Cada detalhe foi discutido em grupo e analisado por todos os membros, ou seja, do product backlog para o Sprint Backlog, cada atividade foi distribuida
@@ -197,7 +202,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > Todos os participantes do grupo contribuiram para a produção do Design Thinking (mais especificamente relacionado ao
 > ambiente Miro), alguns participantes participaram mais ativamente em determinadas tarefas, segue a lista abaixo:
 
-> - Diogo Martins de Assis: User Flow, Personas e Mapa de Empatia, parte da Documentação.
+> - Diogo Martins de Assis: Detalhamento das Ideias, Personas e Mapa de Empatia, parte da Documentação.
 > - Davi Cesar Martins e Silva: Slide de Apresentação e entrevista qualitativa.
 > - Henrique Carvalho Almeida: User Flow, Protótipo interativo e detalhamento das ideias.
 > - Mateus Estevão de Souza: Wireframes, grande parte da Documentação.
