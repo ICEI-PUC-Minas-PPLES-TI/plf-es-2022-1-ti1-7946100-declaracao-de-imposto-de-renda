@@ -83,8 +83,8 @@ Os membros do grupo são:
  
 # Especificações do Projeto
 
-> Coletamos informações atraves de entrevistas feitas pelo google forms onde a partir delas conseguimos d
-> eterminar personas e desenhar seus respectivos mapas de empatia. Juntando as ideias com essas novas 
+> Coletamos informações atraves de entrevistas feitas pelo google forms onde a partir delas conseguimos 
+> determinar personas e desenhar seus respectivos mapas de empatia. Juntando as ideias com essas novas 
 > informações definimos os requisitos funcionais e os não funcionais.
 
 ## Personas e Mapas de Empatia
