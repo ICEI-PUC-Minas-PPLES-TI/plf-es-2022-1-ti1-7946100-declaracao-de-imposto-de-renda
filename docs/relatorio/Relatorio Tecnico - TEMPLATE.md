@@ -220,7 +220,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |-----------|-------------------------|---------------|
 | Repositório de código | GitHub | https://github.com/XXXXXXX |
 | Comunicação | Discord | https://discord.com/ |
-| Processo de Design Thinking  | Miro |  https://miro.com/XXXXXXX | 
+| Processo de Design Thinking  | Miro |  https://miro.com/app/board/uXjVOA2lxqk= | 
 | Wireframe | Uizard  | https://app.uizard.io/prototypes/LWwYG0A38qiLw6PJ3gBx |
 | Protótipo Interativo | Figma  | https://figma.com/XXXXXXX | 
 
