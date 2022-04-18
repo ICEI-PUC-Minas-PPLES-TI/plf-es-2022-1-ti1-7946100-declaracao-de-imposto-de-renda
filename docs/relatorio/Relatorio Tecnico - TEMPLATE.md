@@ -217,8 +217,15 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
+> Todos os participantes do grupo contribuiram para a produção do Design Thinking (mais especificamente relacionado ao
+> ambiente Miro), alguns participantes participaram mais ativamente em determinadas tarefas, segue a lista abaixo:
 
+> - Diogo Martins de Assis: User Flow, Personas e Mapa de Empatia, parte da Documentação.
+> - Davi Cesar Martins e Silva: Slide de Apresentação e entrevista qualitativa.
+> - Henrique Carvalho Almeida: User Flow, Protótipo interativo e detalhamento das ideias.
+> - Mateus Estevão de Souza: Wireframes, grande parte da Documentação.
+> - Pedro Afonso De Campos Faria Maciel: parte da Documentação, User Flow e detalhamento das ideias.
+> - Vítor dos Santos Moreira: Documentação, Entrevista qualitativa e User Flow.
 
 ## Ferramentas
 
