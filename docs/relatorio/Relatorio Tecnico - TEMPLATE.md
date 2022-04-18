@@ -180,16 +180,12 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
-
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
+> A metodologia adotada pelo grupo foi a Scrum, onde tivemos o planejamento iterativo e após isso a incrementação ao Design Thinking
+> com a colaboração de cada membro do grupo.
+> Cada detalhe foi discutido em grupo e analisado por todos os membros, ou seja, do product backlog para o Sprint Backlog, cada atividade foi distribuida
+> igualmente entre os membros do grupo, sendo analisada pela quantidade de tarefas, complexidade da tarefa proposta a cada membro e a disponibilidade de
+> horário de cada um.
+> Após cada tarefa, houve uma revisão de detalhes de cada tarefa feita, com dicussões e planejamento para a próxima tarefa.
 
 
 ## Divisão de Papéis
