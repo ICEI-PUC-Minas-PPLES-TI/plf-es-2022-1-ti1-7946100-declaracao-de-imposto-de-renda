@@ -209,7 +209,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 | Comunicação | Discord | https://discord.com/ |
 | Processo de Design Thinking  | Miro |  https://miro.com/app/board/uXjVOA2lxqk= | 
 | Wireframe | Uizard  | https://app.uizard.io/prototypes/LWwYG0A38qiLw6PJ3gBx |
-| Protótipo Interativo | Figma  | https://figma.com/XXXXXXX | 
+| Protótipo Interativo | Figma  | https://www.figma.com/proto/zcqffDAogv0xIKWOeIZ1sg/TIAW?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2 | 
 
 > O editor de código foi escolhido porque ele possui uma integração com o
 > sistema de versão. As ferramentas de comunicação e de concepção utilizadas possuem
