@@ -149,13 +149,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-003| Segurança de dados sigilosos dos usuarios | MÉDIO |
 
 
-!!!!!!
- Com base nas Histórias de Usuário, enumere os requisitos da sua solução
- Lembre-se que cada requisito deve corresponder à uma e somente uma
- característica alvo da sua solução. Além disso, certifique-se de que
- todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-!!!!!!
-
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
@@ -168,14 +161,14 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-
-
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
+> A página "Simulação do Imposto de Renda" e a "Conheça seu perfil" são peças fundamentais para atingirmos o objetivo de ajudar 
+> nossos clientes que foram baseados nas personas que criamos.
 
 ## User Flow
+
+> User Flow com tamanho maior e qualidade superior disponivel no git hub. 
+> "https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-declaracao-de-imposto-de-renda/blob/master/docs/relatorio/images/userflow.pdf" 
+
 
 > ![UserFlow](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-declaracao-de-imposto-de-renda/blob/master/docs/relatorio/images/userflow.png)
 
@@ -188,7 +181,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 # Metodologia
 
 
-
 > Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
 > a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
@@ -198,10 +190,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
 > o andamento do projeto, a execução das tarefas e o status de desenvolvimento
 > da solução.
-> 
+
+
 ## Divisão de Papéis
-
-
 
 > Todos os participantes do grupo contribuiram para a produção do Design Thinking (mais especificamente relacionado ao
 > ambiente Miro), alguns participantes participaram mais ativamente em determinadas tarefas, segue a lista abaixo:
@@ -213,8 +204,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > - Pedro Afonso De Campos Faria Maciel: parte da Documentação, User Flow e detalhamento das ideias.
 > - Vítor dos Santos Moreira: Documentação, Entrevista qualitativa e User Flow.
 
-## Ferramentas
 
+## Ferramentas
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
