@@ -11,6 +11,21 @@ body {
     font-size: 1.5rem;
 }
 
+/* Botões do header */
+ul li a {
+    font-size: 1.2rem;
+}
+
+/* Botões do corpo */
+#botoes {
+    font-size: 1.4rem;
+}
+
+/* Logo */
+a strong {
+    font-size: 1.4rem;
+}
+
 @media screen and (max-width:767px) {
     #toptxt {
         font-size: 1.5rem;
@@ -19,5 +34,9 @@ body {
 
     #bottomtxt {
         font-size: 1rem;
+    }
+
+    ul li a, #botoes{
+        font-size: unset;
     }
 }
