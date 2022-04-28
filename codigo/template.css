@@ -1,0 +1,20 @@
+body
+{
+    background-color:#d6d6d6;
+}
+
+#main_text
+{
+    font-size: 2rem;
+}
+
+#toptxt
+{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+#bottomtxt
+{
+    font-size: 1.5rem;
+}
