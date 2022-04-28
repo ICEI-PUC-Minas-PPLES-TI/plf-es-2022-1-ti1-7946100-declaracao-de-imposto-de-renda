@@ -1,20 +1,23 @@
-body
-{
-    background-color:#d6d6d6;
+body {
+    background-color: #d6d6d6;
 }
 
-#main_text
-{
-    font-size: 2rem;
-}
-
-#toptxt
-{
+#toptxt {
     font-size: 3rem;
     font-weight: 500;
 }
 
-#bottomtxt
-{
+#bottomtxt {
     font-size: 1.5rem;
+}
+
+@media screen and (max-width:767px) {
+    #toptxt {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    #bottomtxt {
+        font-size: 1rem;
+    }
 }
