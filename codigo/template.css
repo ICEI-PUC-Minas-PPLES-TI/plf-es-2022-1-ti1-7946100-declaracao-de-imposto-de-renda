@@ -12,6 +12,9 @@ body {
 }
 
 /* Botões do header */
+#botoesheader {
+    margin-left: 1.7rem;
+}
 ul li a {
     font-size: 1.2rem;
 }
