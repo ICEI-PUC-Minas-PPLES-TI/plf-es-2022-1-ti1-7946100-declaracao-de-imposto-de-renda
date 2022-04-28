@@ -26,6 +26,19 @@ a strong {
     font-size: 1.4rem;
 }
 
+.nav-bar-button {
+    outline: 0 !important;
+}
+
+.nav-bar-button:hover {
+    background-color: #d6d6d6;
+    transition: 0.3s;
+}
+
+.nav-bar-links {
+    text-align: center;
+}
+
 @media screen and (max-width:767px) {
     #toptxt {
         font-size: 1.5rem;
