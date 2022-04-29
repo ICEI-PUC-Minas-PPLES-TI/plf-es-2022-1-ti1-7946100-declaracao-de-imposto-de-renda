@@ -15,6 +15,7 @@ body {
 #botoesheader {
     margin-left: 1.7rem;
 }
+
 ul li a {
     font-size: 1.2rem;
 }
@@ -52,7 +53,8 @@ a strong {
         font-size: 1rem;
     }
 
-    ul li a, #botoes{
+    ul li a,
+    #botoes {
         font-size: unset;
     }
 }
