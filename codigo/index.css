@@ -11,6 +11,16 @@ body {
     font-size: 1.5rem;
 }
 
+/* Fontes */
+#full_header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+#maintxt{
+    font-family: 'Mulish', sans-serif !important;
+}
+
 /* Botões do header */
 #botoesheader {
     margin-left: 1.7rem;
@@ -39,8 +49,19 @@ a strong {
     transition: 0.3s;
 }
 
-.nav-bar-links {
+.nav-bar-links, #logintop {
     text-align: center;
+}
+
+#textlogintop {
+    font-size: 1.1rem;
+}
+
+
+@media screen and (max-width:870px) {
+    #botoesheader {
+        padding-left: 0px !important;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -57,4 +78,11 @@ a strong {
     #botoes {
         font-size: unset;
     }
+}
+
+@media screen and (max-width:348px) {
+    #logo {
+        margin: 0px !important;
+    }
+
 }
