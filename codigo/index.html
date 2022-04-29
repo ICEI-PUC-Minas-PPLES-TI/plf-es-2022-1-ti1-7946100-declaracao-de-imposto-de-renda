@@ -18,18 +18,18 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-light bg-light" id="header">
+    <header id="full_header">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
             <!-- Logo -->
             <div class="mx-auto order-0">
-                <a class="navbar-brand mr-5 ml-4" href="#"><strong>NOME EMPRESA</strong></a>
+                <a class="navbar-brand mr-5 ml-4" href="#" id="logo"><strong>NOME EMPRESA</strong></a>
                 <button class="navbar-toggler nav-bar-button" type="button" data-toggle="collapse"
                     data-target=".collapsar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
             <!-- Botões -->
-            <div class="navbar-collapse collapse w-100 order-1 collapsar nav-bar-links" id="botoesheader">
+            <div class="navbar-collapse collapse w-100 order-1 collapsar nav-bar-links pl-5" id="botoesheader">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home</a>
@@ -46,10 +46,10 @@
                 </ul>
             </div>
             <!-- Log In / uso ainda em questão mas ta ai -->
-            <div class="navbar-collapse collapse w-100 order-2 collapsar">
+            <div class="navbar-collapse collapse w-100 order-2 collapsar pl-4" id="logintop">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <button type="button" class="btn btn-light btn-outline-dark" style="font-size: 1.1rem;">Sign
+                        <button type="button" class="btn btn-light btn-outline-dark" id="textlogintop">Sign
                             Up</button>
                     </li>
                 </ul>
@@ -57,10 +57,10 @@
         </nav>
     </header>
     <!-- Texto principal -->
-    <main>
+    <main id="maintxt">
         <section>
             <blockquote class="blockquote text-center p-5">
-                <p class="mb-0" id="toptxt">Simplifique seu imposto de renda<br>e esqueça suas contas</p>
+                <p class="mb-0" id="toptxt">Simplifique seu imposto de renda<br>e esqueça das contas</p>
                 <p class="text-muted pt-4" id="bottomtxt">Conheça a nossa nova ferramenta, ~nome~ capaz de resolver
                     todos os seus<br>problemas com o imposto de renda</p>
             </blockquote>
