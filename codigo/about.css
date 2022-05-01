@@ -48,6 +48,7 @@ a strong {
     margin: 10px;
 }
 
+/* Remover espaço entre cards*/
 #cardin {
     width: 100% !important;
 }
