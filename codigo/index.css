@@ -2,25 +2,12 @@ body {
     background-color: #d6d6d6;
 }
 
-/* Textos */
-#toptxt {
-    font-size: 3rem;
-    font-weight: 500;
-}
-
-#bottomtxt {
-    font-size: 1.5rem;
-}
-
 /* Fontes */
 #full_header {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
 
-#maintxt {
-    font-family: 'Mulish', sans-serif !important;
-}
 
 /* Botões do header */
 #botoesheader {
@@ -29,11 +16,6 @@ body {
 
 ul li a {
     font-size: 1.2rem;
-}
-
-/* Botões do corpo */
-#botoes {
-    font-size: 1.4rem;
 }
 
 /* Logo */
@@ -59,6 +41,23 @@ a strong {
     font-size: 1.1rem;
 }
 
+/* Cartões */
+#card {
+    text-align: center;
+    padding: 0px;
+    margin: 10px;
+}
+
+/* Remover espaço entre cards*/
+#cardin {
+    width: 100% !important;
+}
+
+/* Texto final */
+#topbtext {
+    font-size: 2.5rem;
+
+}
 
 @media screen and (max-width:870px) {
     #botoesheader {
@@ -67,19 +66,7 @@ a strong {
 }
 
 @media screen and (max-width:767px) {
-
-    /* Textos */
-    #toptxt {
-        font-size: 1.5rem;
-        font-weight: 500;
-    }
-
-    #bottomtxt {
-        font-size: 1rem;
-    }
-
-    ul li a,
-    #botoes {
+    ul li a {
         font-size: unset;
     }
 }
