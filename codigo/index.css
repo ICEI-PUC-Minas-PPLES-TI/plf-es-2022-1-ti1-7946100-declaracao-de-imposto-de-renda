@@ -18,7 +18,7 @@ body {
     font-weight: 500;
 }
 
-#maintxt{
+#maintxt {
     font-family: 'Mulish', sans-serif !important;
 }
 
@@ -50,7 +50,8 @@ a strong {
     transition: 0.3s;
 }
 
-.nav-bar-links, #logintop {
+.nav-bar-links,
+#logintop {
     text-align: center;
 }
 
@@ -66,6 +67,7 @@ a strong {
 }
 
 @media screen and (max-width:767px) {
+
     /* Textos */
     #toptxt {
         font-size: 1.5rem;
