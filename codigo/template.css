@@ -31,7 +31,8 @@ a strong {
     transition: 0.3s;
 }
 
-.nav-bar-links, #logintop {
+.nav-bar-links,
+#logintop {
     text-align: center;
 }
 
