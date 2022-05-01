@@ -41,6 +41,16 @@ a strong {
     font-size: 1.1rem;
 }
 
+/* Cartões */
+#card {
+    text-align: center;
+    padding: 0px;
+    margin: 10px;
+}
+
+#cardin {
+    width: 100% !important;
+}
 
 @media screen and (max-width:870px) {
     #botoesheader {
@@ -48,7 +58,7 @@ a strong {
     }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:767px) {   
     ul li a {
         font-size: unset;
     }
