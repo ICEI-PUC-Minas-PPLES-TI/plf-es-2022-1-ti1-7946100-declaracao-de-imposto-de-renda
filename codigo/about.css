@@ -53,6 +53,11 @@ a strong {
     width: 100% !important;
 }
 
+#topbtext {
+    font-size: 3rem;
+    
+}
+
 @media screen and (max-width:870px) {
     #botoesheader {
         padding-left: 0px !important;
