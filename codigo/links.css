@@ -40,21 +40,25 @@ a strong {
     font-size: 1.1rem;
 }
 
+/* Imagem */
 #imglnk {
     text-align: center;
     padding: 0px;
 }
 
+/* Texto ao topo do link */
 #cardtxt {
     justify-content: center;
     text-align: center !important;
 }
 
+/* Link */
 #lnkclr {
     background-color: rgb(62, 102, 251, 0.1);
     border-radius: 1rem;
 }
 
+/* Container final */
 #contfinal {
     margin-bottom: 5rem !important;
 }
@@ -78,6 +82,7 @@ a strong {
         position: absolute !important;
     }
 
+    /* Containers */
     #contf,
     #contfinal {
         margin-left: 0px !important;
