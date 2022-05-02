@@ -31,8 +31,7 @@ a strong {
     transition: 0.3s;
 }
 
-.nav-bar-links,
-#logintop {
+.nav-bar-links, #logintop {
     text-align: center;
 }
 
@@ -83,8 +82,7 @@ a strong {
     }
 
     /* Containers */
-    #contf,
-    #contfinal {
+    #contf, #contfinal {
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
