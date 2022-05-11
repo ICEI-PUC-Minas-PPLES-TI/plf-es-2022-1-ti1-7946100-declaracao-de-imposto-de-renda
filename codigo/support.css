@@ -40,6 +40,25 @@ a strong {
     font-size: 1.1rem;
 }
 
+#contfaq {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    background-color: white;
+    max-width: 100%;
+}
+
+#colfaq {
+    text-align: center !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+#faqint {
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+}
 
 @media screen and (max-width:870px) {
     #botoesheader {
