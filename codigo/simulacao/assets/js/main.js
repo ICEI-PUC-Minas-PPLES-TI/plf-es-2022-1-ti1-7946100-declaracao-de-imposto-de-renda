@@ -3,15 +3,6 @@ const numeroDependentesInput = document.querySelector('#numeroDependentes');
 const divResultado = document.querySelector('#resultado');
 const msgResultado = document.querySelector('#mensagemresultado');
 
-window.onload = function() {
-    if(localStorage.getItem('dados') === null) {
-        return;
-    }
-
-    criaTabela();
-    adicionaDadosNaTabela();
-}
-
 // Captura evento de clique no botão 'simular'
 document.addEventListener('click', e => {
     e.preventDefault();
@@ -23,7 +14,7 @@ document.addEventListener('click', e => {
     
     if(elemento.classList.contains('simular')) {
         if(!rendaBrutaValue) {
-            mensagem('Campo renda bruta é inválido!', 0);
+            mensagem('Campo renda bruta inválido!', 0);
             return;
         }
 
@@ -32,40 +23,33 @@ document.addEventListener('click', e => {
             return;
         }
 
-        const dadosEmGeral = calculoIrrf(rendaBrutaValue, numeroDependentesValue);
-        adicionaDadosLocalStorage(dadosEmGeral);
-
+        
         if(!divResultado.classList.contains('possuiTabela')) {
             criaTabela();
         }
-
-        adicionaDadosNaTabela();
+        
+        const dadosEmGeral = calculoIrrf(rendaBrutaValue, numeroDependentesValue);
+        adicionaDadosNaTabela(dadosEmGeral);
     }
 });
 
-// Limpar o localStorage do navegador
+// Limpar os dados do navegador
 document.addEventListener('click', e => {
     const elemento = e.target;
+    const td = document.querySelectorAll('td');
 
     if(elemento.classList.contains('limpar-dados')) {
-        localStorage.clear();
-        console.log(localStorage);
-        window.location.reload()
+        td.forEach((valor) => {
+            valor.parentElement.remove();
+        });
+
+        mensagem('Dados apagados com sucesso!', 1);
     }
 });
 
-// Adiciona dados na local storage
-function adicionaDadosLocalStorage(objetoDados) {
-    const objetoJSON = JSON.stringify(objetoDados);
-    localStorage.setItem('dados', objetoJSON);
-    console.log(localStorage);
-}
-
 // Adiciona os dados na tabela do navegador
-function adicionaDadosNaTabela() {
-    const jsonObject = localStorage.getItem('dados');
-    const normalObject = JSON.parse(jsonObject)
-    manipulaDadosTabela(normalObject);
+function adicionaDadosNaTabela(dados) {
+    manipulaDadosTabela(dados);
     mensagem('Dados adicionados com sucesso!', 1);
 }
 
