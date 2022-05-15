@@ -65,7 +65,7 @@ a strong {
     }
 }
 
-@media screen and (max-width:767px) {   
+@media screen and (max-width:767px) {
     ul li a {
         font-size: unset;
     }
