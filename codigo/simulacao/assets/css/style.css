@@ -1,6 +1,6 @@
 body {
     background-color: #ececec;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 
 /* Fontes */
@@ -119,6 +119,17 @@ a strong {
     font-size: 1.3em;
 }
 
+.colunaTabela {
+    background-color: #ededed;
+    border: 1px solid #c4c4c4;
+}
+
+.dadoTabela {
+    background-color: #adadad;
+    color: rgb(54, 54, 54);
+    padding: 4px;
+}
+
 @media screen and (max-width:870px) {
     #botoesheader {
         padding-left: 0px !important;
@@ -162,6 +173,26 @@ a strong {
     }
 
     .dadoTabela:nth-child(4) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .colunaTabela:nth-child(7) {
+        display: none;
+    }
+
+    .dadoTabela:nth-child(7) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .colunaTabela:nth-child(6) {
+        display: none;
+    }
+
+    .dadoTabela:nth-child(6) {
         display: none;
     }
 }
