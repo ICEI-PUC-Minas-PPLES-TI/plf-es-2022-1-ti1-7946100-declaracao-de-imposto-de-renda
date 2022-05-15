@@ -23,7 +23,7 @@ document.addEventListener('click', e => {
     
     if(elemento.classList.contains('simular')) {
         if(!rendaBrutaValue) {
-            mensagem('O campo renda bruta está vazio!', 0);
+            mensagem('Campo renda bruta é inválido!', 0);
             return;
         }
 
