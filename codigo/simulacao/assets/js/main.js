@@ -15,11 +15,14 @@ document.addEventListener('click', e => {
     if(elemento.classList.contains('simular')) {
         if(!rendaBrutaValue) {
             mensagem('Campo renda bruta inválido!', 0);
+            rendaBrutaInput.value = '';
+            numeroDependentesInput.value = '';
             return;
         }
 
         if(!Number.isInteger(numeroDependentesValue)) {
             mensagem('O campo número de dependentes precisa ser um número inteiro!');
+            numeroDependentesInput.value = '';
             return;
         }
 
@@ -30,6 +33,9 @@ document.addEventListener('click', e => {
         
         const dadosEmGeral = calculoIrrf(rendaBrutaValue, numeroDependentesValue);
         adicionaDadosNaTabela(dadosEmGeral);
+
+        rendaBrutaInput.value = '';
+        numeroDependentesInput.value = '';
     }
 });
 
@@ -82,14 +88,15 @@ function calculoIrrf(rendaBruta, dependentes) {
         aliquota = 12;
     } else if(rendaBruta <= 7087.22) {
         aliquota = 14;
+    } else if(rendaBruta <= 24273.57){
+        aliquota = 16.5;
+    } else if(rendaBruta <= 47333.46) {
+        aliquota = 19;
     } else {
-        mensagem('Faixa salarial não encontrada', 0);
-        localStorage.clear();
-        return;
+        aliquota = 22;
     }
 
     const contribuicaoInss = calculaContribuicaoInss(rendaBruta, aliquota);
-
     const baseDeCalculoValor = calculaBaseDeCalculo(rendaBruta, contribuicaoInss, dependentes);
 
     if(baseDeCalculoValor <= 1903.98) {
@@ -128,10 +135,11 @@ function calculaContribuicaoInss(rendaBruta, aliquota) {
 // Retorna um array com dados sobre o IRRF
 function dadosDoIrrf(baseDeCalculo) {
     const dados = [];
+
     let aliquotaIrrfValor;
     let parcelaDeduzir;
 
-    if(baseDeCalculo <= 2826.66) {
+    if(baseDeCalculo <= 2826.65) {
         aliquotaIrrfValor = 7.5;
         parcelaDeduzir = 142.80;
     } else if(baseDeCalculo <= 3751.05) {
@@ -216,7 +224,6 @@ function manipulaDadosTabela(dados) {
     const dado6 = criaElemento('td');
     const dado7 = criaElemento('td');
     const dado8 = criaElemento('td');
-
     
     dado1.innerText = `R$${dados.rendabruta}`.replace('.', ',');
     dado2.innerText = `${dados.nDependentes}`;
