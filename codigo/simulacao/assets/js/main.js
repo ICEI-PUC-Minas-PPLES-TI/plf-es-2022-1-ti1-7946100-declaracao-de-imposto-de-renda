@@ -197,8 +197,6 @@ function criaTabela() {
 
     for(let i = 1; i < 9; i++) {
         linha1.appendChild(eval(`coluna${i}`));
-        eval(`coluna${i}`).style.backgroundColor = '#ededed';
-        eval(`coluna${i}`).style.border = '1px solid #c4c4c4';
         eval(`coluna${i}`).setAttribute('class', 'colunaTabela');
     }
 
