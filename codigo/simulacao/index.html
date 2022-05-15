@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Simulação do imposto de renda</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/8/8f/Orange_lambda.svg">
+    <meta name="description" content="Imposto de Renda Web">
+    <meta name="author" content="T1-G8 - Dificuldade na declaração do imposto de renda">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- CSS local -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header id="full_header">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <!-- Logo -->
+            <div class="mx-auto order-0">
+                <a class="navbar-brand mr-5 ml-4" href="index.html" id="logo"><strong>NOME EMPRESA</strong></a>
+                <button class="navbar-toggler nav-bar-button" type="button" data-toggle="collapse"
+                    data-target=".collapsar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <!-- Botões -->
+            <div class="navbar-collapse collapse w-100 order-1 collapsar nav-bar-links pl-5" id="botoesheader">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Suporte</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="links.html">Links</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="about.html" style="white-space: nowrap;">Sobre Nós</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Simulacao de imposto de renda -->
+    <main class="container">
+        <div class="row">
+            <div class="col-12 simulacao">
+                <h1>Simule aqui seu imposto de renda</h1>
+                <form class="formulario" id="formulario">
+                    <legend>Dados do seu imposto de renda</legend>
+                    <p>Preencha os campo renda bruta mensal e números de dependentes</p>
+
+                    <p>Renda Bruta Mensal</p>
+                    <i class="fa-solid fa-coins"></i> <input type="text" name="rendaBruta" id="rendaBruta" placeholder="R$"/>
+                    
+                    <p>Número de dependentes</p>
+                    <i class="fa-solid fa-hand-holding-dollar"></i> <input type="text" name="numeroDependentes" id="numeroDependentes" placeholder="Número de dependentes sem casas decimais"/>
+                        
+                    <br>
+                    <!-- <button class="calcular-imposto">Calcular</button> -->
+                    <button class="simular">Simular</button>
+                    <button class="limpar-dados">Limpar</button>
+                    <button class="editar-dados">Editar</button>
+
+                    <div id="mensagemresultado"></div><!--#mensagemresultado-->
+                    <div id="resultado"></div><!--#resultado-->
+                </form><!--.formulario-->
+            </div><!--.col-12-->
+        </div><!--.row-->
+    </main><!--.container-->
+
+    <!-- Copyright Footer -->
+    <footer class="bg-light text-center text-lg-start fixed-bottom">
+        <div class="text-center p-3">
+            © 2022 Copyright:
+            <a class="text-dark text-decoration-none" href="#">NOME EMPRESA</a>
+        </div>
+    </footer>
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2f4b8f5acd.js" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
