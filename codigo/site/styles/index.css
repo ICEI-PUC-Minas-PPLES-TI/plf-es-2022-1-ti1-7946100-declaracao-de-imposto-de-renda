@@ -1,5 +1,5 @@
 body {
-    background-color: #d6d6d6;
+    background-color: #c8d8e4;
 }
 
 /* Fontes */
@@ -8,6 +8,9 @@ body {
     font-weight: 500;
 }
 
+.bg-brnc {
+    background-color: #ffffff;
+}
 
 /* Botões do header */
 #botoesheader {
