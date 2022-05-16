@@ -1,11 +1,15 @@
 body {
-    background-color: #d6d6d6;
+    background-color: #c8d8e4;
 }
 
 /* Fontes */
 #full_header {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+}
+
+.bg-brnc {
+    background-color: #ffffff;
 }
 
 /* Botões do header */
@@ -56,7 +60,7 @@ a strong {
 
 /* Link */
 #lnkclr {
-    background-color: rgb(62, 102, 251, 0.1);
+    background-color: #2b6777;
     border-radius: 1rem;
 }
 
