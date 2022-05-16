@@ -1,11 +1,15 @@
 body {
-    background-color: #d6d6d6;
+    background-color: #c8d8e4;
 }
 
 /* Fontes */
 #full_header {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+}
+
+.bg-brnc {
+    background-color: #ffffff;
 }
 
 /* Botões do header */
@@ -44,20 +48,14 @@ a strong {
     margin-left: 0px;
     margin-right: 0px;
     width: 100%;
-    background-color: white;
+    background-color: #2b6777;
     max-width: 100%;
+    color: white;
 }
 
-#colfaq {
-    text-align: center !important;
-    width: 100% !important;
-    max-width: 100% !important;
-}
-
-#faqint {
-    text-align: center;
-    max-width: 100%;
-    width: 100%;
+.linkfaq {
+    color: white !important;
+    text-decoration: none;
 }
 
 @media screen and (max-width:870px) {
