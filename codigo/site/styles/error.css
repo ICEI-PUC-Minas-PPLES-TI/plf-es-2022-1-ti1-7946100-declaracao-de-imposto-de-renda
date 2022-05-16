@@ -25,6 +25,10 @@ ul li a {
     text-align: center;
 }
 
+#botao {
+    font-size: 1.3rem;
+}
+
 /* Logo */
 a strong {
     font-size: 1.4rem;
