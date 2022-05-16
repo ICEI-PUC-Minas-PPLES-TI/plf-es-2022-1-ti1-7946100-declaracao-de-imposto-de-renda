@@ -78,6 +78,13 @@ a strong {
     }
 }
 
+@media screen and (max-width:575px) {
+    #cardin {
+        width: 50% !important;
+        left: 25%;
+    }
+}
+
 @media screen and (max-width:348px) {
     #logo {
         margin: 0px !important;
