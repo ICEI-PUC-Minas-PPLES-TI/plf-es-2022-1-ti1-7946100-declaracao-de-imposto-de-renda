@@ -83,6 +83,9 @@ a strong {
         width: 50% !important;
         left: 25%;
     }
+    #headtxt {
+        margin-left: 1.5rem;
+    }
 }
 
 @media screen and (max-width:348px) {
