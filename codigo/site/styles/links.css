@@ -69,10 +69,6 @@ a strong {
     margin-bottom: 5rem !important;
 }
 
-#contf {
-}
-
-
 @media screen and (max-width:870px) {
     #botoesheader {
         padding-left: 0px !important;
