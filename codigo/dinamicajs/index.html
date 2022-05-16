@@ -12,6 +12,16 @@
 
 <body>
     <div class="app">
+        <div class="header">
+            <a href="" class="logo">Logo</a>
+            <div class="header-right">
+                <a class="active" href="">Home</a>
+                <a href="">Suporte</a>
+                <a href="">Links</a>
+                <a href="">Sobre Nós</a>
+            </div>
+        </div>
+
         <h1 class="title">
             Declaraçao do Imposto de Renda
         </h1>
@@ -29,16 +39,27 @@
             <img src="assets\irrf.png" alt="" class="tabela__img quartainfo">
         </div>
         <p>O que diz a lei sobre o IRRF? As disposições legais sobre o IRRF estão dispostas no Decreto 9.850/18. De forma resumida, o Imposto de Renda Retido na Fonte — IRRF é um tributo pago mensalmente por pessoas físicas, enquanto funcionárias de outras
-            empresas, ao receberem mais de R$ 1.903,99 por mês. Pessoas jurídicas que atuam na prestação de serviços, como escritórios contábeis, também precisam declarar o IRRF quando recebem mais de R$ 28.559,70 em rendimentos tributáveis ou R$ 40 mil
-            em rendimentos isentos, não tributáveis ou tributados na fonte.</p>
-    </div>
+            empresas, ao receberem mais de R$ 1.903,99 por mês. Confira <a id="openModal">AQUI</a> um exemplo de simulação. Pessoas jurídicas que atuam na prestação de serviços, como escritórios contábeis, também precisam declarar o IRRF quando recebem
+            mais de R$ 28.559,70 em rendimentos tributáveis ou R$ 40 mil em rendimentos isentos, não tributáveis ou tributados na fonte.</p>
 
-    <footer class="footer">
-        <p>Copyright © 2022. All rights reserved <a class="openpopover__p quintainfo" data-toggle="popover">PUC Minas</a></p>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="js/function.js"></script>
+        <div class="dinamicaModal__wrapper" id="modal">
+            <div class="dinamicaModal">
+                <div class="dinamicaModal__body">
+                    <div>
+                        <button id="closeModal" class="button">❌</button>
+                        <img class="dinamicaModal__img" src="assets/simulacao.gif" alt="">
+                    </div>
+                    <h3 class="dinamicaModal__title">Simulação</h3>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>Copyright © 2022. All rights reserved <a class="openpopover__p quintainfo" data-toggle="popover">PUC Minas</a></p>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="js/function.js"></script>
 </body>
 
 
