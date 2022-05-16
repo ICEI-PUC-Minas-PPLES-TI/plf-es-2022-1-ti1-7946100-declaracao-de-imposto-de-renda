@@ -27,9 +27,10 @@ $(document).ready(function() {
         placement: 'top',
         trigger: 'hover',
         html: true,
-        content: '<div class="openpopover"><img class="openpopover__img" src="assets/pucminas.jpg" alt=""><p>Pontifícia Universidade Católica de Minas Gerais</p></div>'
+        content: '<div class="openpopover"><img class="openpopover__img" src="assets/pucminas.jpg" alt=""><p class="openpopover__p">Pontifícia Universidade Católica de Minas Gerais</p></div>'
     });
     dinamicaModal();
+    dinamicaReferencias();
 });
 
 function dinamicaModal() {
@@ -49,3 +50,22 @@ function dinamicaModal() {
 
     openModalElement.addEventListener("mouseover", mouseOver);
 };
+
+
+
+function dinamicaReferencias() {
+    const coll = document.getElementsByClassName("dinamicaCollapsedButton");
+    let i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            const conteudo = this.nextElementSibling;
+            if (conteudo.style.display === "block") {
+                conteudo.style.display = "none";
+            } else {
+                conteudo.style.display = "block";
+            }
+        });
+    }
+}
