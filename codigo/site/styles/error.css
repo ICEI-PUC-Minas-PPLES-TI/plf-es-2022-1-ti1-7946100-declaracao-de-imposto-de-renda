@@ -1,11 +1,15 @@
 body {
-    background-color: #d6d6d6;
+    background-color: #c8d8e4;
 }
 
 /* Fontes */
 #full_header {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+}
+
+.bg-brnc {
+    background-color: #ffffff;
 }
 
 /* Botões do header */
