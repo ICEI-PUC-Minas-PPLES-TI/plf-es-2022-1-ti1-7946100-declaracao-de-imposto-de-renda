@@ -1,0 +1,33 @@
+body {
+    background-color: #c8d8e4;
+}
+
+.botao-m {
+    margin-top: 45vh;
+}
+
+#window {
+    font-family: "Montserrat", Sans-serif;
+}
+
+.kill {
+    text-align: right;
+}
+
+.widcnt {
+    width: 89vw;
+}
+
+.gnt-crd {
+    border: 200px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.backg-green {
+    background-color: #61CE70;
+}
+
+.fnt-clr-wt {
+    color: white;
+}
