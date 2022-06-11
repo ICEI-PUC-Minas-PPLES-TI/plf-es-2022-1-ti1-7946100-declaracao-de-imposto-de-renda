@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Conversor</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="app">
+        <div class="container">
+            <form id="formConvert">
+                <h1 class="title">Conversor de Moeda</h1>
+                <p class="subtitle">$ Dolares ➜ Reais R$</p>
+                <input class="input" type="text" id="inputDolar" placeholder="Insira o valor em dolar" onkeypress="return onlynumber();" />
+                <button class="button" id="inputConvert" value="Converter" type="submit">Converter</button>
+                <p class="result" id="valorConvertido"></p>
+            </form>
+        </div>
+    </div>
+    <script src="js/function.js"></script>
+</body>
+
+</html>
