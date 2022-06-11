@@ -1,0 +1,70 @@
+header{
+    background-color: #f2f2f2;
+}
+body{
+    
+    background-color:  #c8d8e4;
+}
+
+
+#mail {
+    box-shadow: 0 4px 8px #999;
+    box-shadow: 0 4px rgb(36, 186, 197);
+    width: 60%;
+    margin: 0 auto;
+    padding:0px;
+    margin-top: 20%;
+    
+    
+    
+}
+
+input{
+width: 100%;
+padding: 10px;
+margin-bottom: 1em;
+}
+
+label{
+    font-weight: bold;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+#botoesheader {
+    margin-left: 1.7rem;
+}
+
+ul li a {
+    font-size: 1.2rem;
+}
+
+/* Logo */
+a strong {
+    font-size: 1.4rem;
+}
+
+.nav-bar-button {
+    outline: 0 !important;
+}
+
+.nav-bar-button:hover {
+    background-color: #d6d6d6;
+    transition: 0.3s;
+}
+
+.nav-bar-links,
+#logintop {
+    text-align: center;
+}
+
+#textlogintop {
+    font-size: 1.1rem;
+}
+
+#btnz{
+    text-decoration: none;
+}
+footer{
+    background-color: #f2f2f2;
+}

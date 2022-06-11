@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="box.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Box</title>
+
+    <header id="full_header">
+        <nav class="navbar navbar-expand-md navbar-light bg-brnc">
+            <!-- Logo -->
+            <div class="mx-auto order-0"><a class="navbar-brand mr-5 ml-4" href="index.html" id="logo"><strong>NOME
+                        EMPRESA</strong></a><button class="navbar-toggler nav-bar-button" type="button"
+                    data-toggle="collapse" data-target=".collapsar"><span class="navbar-toggler-icon"></span></button>
+            </div>
+            <!-- Botões -->
+            <div class="navbar-collapse collapse w-100 order-1 collapsar nav-bar-links pl-5" id="botoesheader">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="support.html">Suporte</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="links.html">Links</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="about.html" style="white-space: nowrap;">Sobre
+                            Nós</a></li>
+                </ul>
+            </div>
+            <!-- Log In -->
+            <div class="navbar-collapse collapse w-100 order-2 collapsar pl-4" id="logintop">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <form method="get" action="error.html"><button type="submit"
+                                class="btn btn-light btn-outline-success" id="textlogintop">Cadastrar</button></form>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="container">
+            <div class="row">
+                <form class="card" id="mail">
+                    <div class="col-12" id="email">
+                        <label for="exampleInputEmail1" class="form-label"> Controle De Gastos </label>
+                        <p>Acesse a nossa calculadora de gastos mensais e veja como esta sendo seu Mês:
+                        </p>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Digite Seu E-mail Para Ser Redirecionado !" id="inp" >
+                        <div id="emailHelp" class="form-text">Nunca compartilharemos seu e-mail com mais ninguém. <label
+                                class="form-check-label" for="exampleCheck1">Aos dados pessoais fornecidos acima serão
+                                utilizados para envio de conteúdo informativo, analítico e publicitário sobre produtos,
+                                serviços e assuntos gerais, anos termos da <a
+                                    href="https://www.gov.br/cidadania/pt-br/acesso-a-informacao/lgpd">Lei Geral
+                                    de Proteção de Dados.</a></label></div>
+
+                        <button type="submit" class="btn btn-light" onclick="salvar()" onclick="return ( verifica() )" ><a
+                                href="controlgastos.html" id="btnz">Cadastrar</a></button>
+                    </div>
+
+
+
+                </form>
+            </div>
+        </div>
+        
+        
+        
+        
+        <footer class="text-center text-lg-start fixed-bottom bg-brnc">
+            <div class="text-center p-3"> © 2022 Copyright: <a class="text-dark text-decoration-none"
+                    href="about.html">NOME EMPRESA</a></div>
+
+
+
+
+
+
+            
+            
+            
+            
+            
+            
+            <script type="text/javascript">
+                function verifica() {
+                    if (document.forms[0].email.value.length == 0) {
+                        alert('Por favor, informe o seu EMAIL.');
+                        document.frmEnvia.email.focus();
+                        return false;
+                    }
+                    return true;
+                }
+
+                function checarEmail() {
+                    if (document.forms[0].email.value == ""
+                        || document.forms[0].email.value.indexOf('@') == -1
+                        || document.forms[0].email.value.indexOf('.') == -1) {
+                        alert("Por favor, informe um E-MAIL válido!");
+                        return false;
+                    }
+                }
+            </script>
+
+
+            <script>
+                function salvar() {
+
+                    localStorage.setItem("email", document.querySelector("#exampleInputEmail1").value);
+
+                }
+            </script>
+
+
+
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
