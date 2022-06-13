@@ -38,39 +38,41 @@
                     <br>
                     Dentro de alguns minutos nossa central entrará em contato
                     por ligação para confirmar seu cadastro.
-                    <br>
-                    Por favor, avalie nosso serviço!
                 </p>
+                <h4 class="text-center"> Por favor, avalie nosso serviço!
+                </h4>
             </div>
             <div class="row">
                 <div class="col"></div>
-                <div class="col bg-dark p-2 mb-3 bdr-rad-lft">
+                <div class="col darkback p-2 mb-3 bdr-rad-lft">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" onclick="salvar()">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"
+                            onclick="salvar()">
                         <label class="form-check-label" for="flexRadioDefault1">
-                            1
+                            1 😕
                         </label>
                     </div>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
-                            checked  onclick="salvar2()">
+                            checked onclick="salvar2()">
                         <label class="form-check-label" for="flexRadioDefault2">
-                            2
+                            2 😒
                         </label>
                     </div>
                 </div>
-                <div class="col bg-dark p-2 mb-3 bdr-rad-rht">
+                <div class="col darkback p-2 mb-3 bdr-rad-rht">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3"onclick="salvar3()">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3"
+                            onclick="salvar3()">
                         <label class="form-check-label" for="flexRadioDefault1">
-                            3
+                            3 👍
                         </label>
                     </div>
-                    <div class="form-check">
+                    <div class="form-check text-center align-items-center justify-content-center">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4"
                             checked onclick="salvar4()">
-                        <label class="form-check-label" for="flexRadioDefault2">
-                            4
+                        <label class="text-center form-check-label" for="flexRadioDefault2">
+                            4 😍
                         </label>
                     </div>
                 </div>
@@ -130,30 +132,31 @@
     </script>
 </body>
 <script>
-    function salvar(){
-localStorage.setItem("1", document.querySelector("#flexRadioDefault1").value) ;
+    function salvar() {
+        localStorage.setItem("1", document.querySelector("#flexRadioDefault1").value);
 
 
 
-}
+    }
 </script>
 
 <script>
-    function salvar2(){
-        localStorage.setItem("2", document.querySelector("#flexRadioDefault2").value) ;
+    function salvar2() {
+        localStorage.setItem("2", document.querySelector("#flexRadioDefault2").value);
     }
 </script>
 <script>
-    function salvar3(){
-        localStorage.setItem("3", document.querySelector("#flexRadioDefault3").value) ;
+    function salvar3() {
+        localStorage.setItem("3", document.querySelector("#flexRadioDefault3").value);
     }
 </script>
 </script>
 <script>
-    function salvar4(){
-        localStorage.setItem("4", document.querySelector("#flexRadioDefault4").value) ;
- 
+    function salvar4() {
+        localStorage.setItem("4", document.querySelector("#flexRadioDefault4").value);
+
     }
 </script>
 </script>
+
 </html>
