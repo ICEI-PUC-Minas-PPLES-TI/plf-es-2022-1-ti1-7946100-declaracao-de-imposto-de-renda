@@ -26,7 +26,9 @@ body {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-
+.darkback{
+    background-color: rgba(0, 0, 0, 0.2);
+}
 .bdr-rad-lft {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -39,7 +41,9 @@ body {
 }
 
 .backg-green {
-    background-color: #61CE70;
+    background-color: #2a9e3a;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.5);
+    margin-bottom: 50px;
 }
 
 .fnt-clr-wt {
