@@ -45,3 +45,8 @@ function salvar4() {
     alloff()
     localStorage.setItem("4", document.querySelector("#flexRadioDefault4").value);
 }
+
+function quizgone() { 
+    const element = document.getElementById("quiz");
+element.remove();
+}
