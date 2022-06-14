@@ -20,10 +20,10 @@ window.onclick = function (event) {
 
 function alloff() {
     var off = "off"
-    localStorage.setItem("1", "off");
-    localStorage.setItem("2", "off");
-    localStorage.setItem("3", "off");
-    localStorage.setItem("4", "off");
+    localStorage.setItem("1", off);
+    localStorage.setItem("2", off);
+    localStorage.setItem("3", off);
+    localStorage.setItem("4", off);
 }
 
 function salvar() {
