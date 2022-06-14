@@ -13,7 +13,9 @@ body {
 .kill {
     text-align: right;
 }
-
+.sizemiddlecol{
+    width: 10px;
+}
 .form-check-label {
     text-align: center;
 }
