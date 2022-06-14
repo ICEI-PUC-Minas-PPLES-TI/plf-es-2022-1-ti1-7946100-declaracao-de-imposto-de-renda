@@ -25,15 +25,23 @@ function alloff() {
     localStorage.setItem("3", "off");
     localStorage.setItem("4", "off");
 }
-function salvar() {alloff()
+
+function salvar() {
+    alloff()
     localStorage.setItem("1", document.querySelector("#flexRadioDefault1").value);
 }
-function salvar2() {alloff()
+
+function salvar2() {
+    alloff()
     localStorage.setItem("2", document.querySelector("#flexRadioDefault2").value);
 }
-function salvar3() {alloff()
+
+function salvar3() {
+    alloff()
     localStorage.setItem("3", document.querySelector("#flexRadioDefault3").value);
 }
-function salvar4() {alloff()
+
+function salvar4() {
+    alloff()
     localStorage.setItem("4", document.querySelector("#flexRadioDefault4").value);
 }
