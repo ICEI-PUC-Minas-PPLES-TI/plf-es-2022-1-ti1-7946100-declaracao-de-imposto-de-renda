@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Documento</title>
+</head>
+
+<body>
+    <header>
+        <div class="center">
+            <nav>
+                <ul>
+                    <div class="cabecalho">
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Suporte</a></li>
+                        <li><a href="#">Sobre nós</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="relatorioFechado" id="relatorio">
+        <div class="caixa">
+            <div class="container">
+                <h1>Relatório</h1>
+                Renda Bruta:<p class="rendaBruta"></p>
+                13º salário:<p class="salario"></p>
+                Aluguel:<p class="aluguel"></p>
+                Lucro provindo de investimentos:<p class="lucro"></p>
+                Pensão alimentícia:<p class="pensao"></p>
+                Auxílio Emergencial:<p class="auxilio"></p>
+            </div>
+        </div>
+    </div>
+    <div class="containerRelatorio">
+        <button id="botaoRelatorio" class="relatorioAberto botaoRelatorio" onclick="emitirRelatorio()">Emitir Relatório</button>
+    </div>
+        <footer>
+            <span>Copyright © 2022. All rights reserved</span>
+        </footer>
+        <script src="main.js"></script>
+</body>
+
+</html>
