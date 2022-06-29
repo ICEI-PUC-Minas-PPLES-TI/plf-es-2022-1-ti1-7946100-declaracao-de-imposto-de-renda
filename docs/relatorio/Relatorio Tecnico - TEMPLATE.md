@@ -266,7 +266,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 # **############## SPRINT 1 ACABA AQUI #############**
 
 
-# Projeto da Solução
+# Projeto da Solução 1
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
@@ -299,7 +299,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
 
 
-# Avaliação da Aplicação
+# Avaliação da Aplicação 2
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
