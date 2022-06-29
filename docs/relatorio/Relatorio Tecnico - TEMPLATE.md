@@ -309,7 +309,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+![image](https://user-images.githubusercontent.com/15385678/176562686-4ef1a81c-b319-4474-9389-b15503253450.png).
 
 > Enumere quais cenários de testes foram selecionados para teste. Neste
 > tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
