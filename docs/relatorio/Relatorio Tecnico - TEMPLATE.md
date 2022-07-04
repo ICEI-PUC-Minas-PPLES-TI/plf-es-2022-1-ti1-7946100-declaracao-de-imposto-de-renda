@@ -236,67 +236,46 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 
 
-> > A ferramenta de controle de versão adotada no projeto foi o
-> [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-> foi utilizado para hospedagem do repositório `upstream`.
-> 
-> O projeto segue a seguinte convenção para o nome de branchs:
-> 
-> - `master`: versão estável já testada do software
-> - `unstable`: versão já testada do software, porém instável
-> - `testing`: versão em testes do software
-> - `dev`: versão de desenvolvimento do software
-> 
-> Quanto à gerência de issues, o projeto adota a seguinte convenção para
-> etiquetas:
-> 
-> - `bugfix`: uma funcionalidade encontra-se com problemas
-> - `enhancement`: uma funcionalidade precisa ser melhorada
-> - `feature`: uma nova funcionalidade precisa ser introduzida
->
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
->
-> **Exemplo - GitHub Feature Branch Workflow**:
->
-> ![Exemplo de Wireframe](images/Github-Workflow.png)
+A ferramenta de controle de versão adotada no projeto foi o
+[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
+foi utilizado para hospedagem do repositório `upstream`.
 
-# **############## SPRINT 1 ACABA AQUI #############**
+O projeto segue a seguinte convenção para o nome de branchs:
 
+- `master`: versão estável já testada do software
+- `unstable`: versão já testada do software, porém instável
+- `testing`: versão em testes do software
+- `dev`: versão de desenvolvimento do software
 
-# Projeto da Solução 1
-
-......  COLOQUE AQUI O SEU TEXTO ......
+# Projeto da Solução
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Neste projeto, html, css, bootstrap e font awesome são usados para estilizar e tornar a página responsiva a qualquer dispositivo. Javascript, popperjs e bootstrap são usados para tornar a aplicação dinâmica. Arquivos em JSON são usados para armazenar dados de clientes e localStorage é usado para armazenar informações temporárias.
 
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
+No navegador, o usuário acessa o host através da url e se depara com a tela incial
+
+![Site inicial](images/Inicio template.png)
+
+Ao clicar em teste agora, o cliente é levado ao cálculo do imposto
+
+![Calculo inicial](images/Simulação template.png)
+
+O cliente também pode ler notícias, contatar suporte e acessar links relacionados, este workflow foi mantido até a presente data
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+- Navegador - Interface do usuário
+  - Pagina web (html, css, bootstrap, popper e js)
+  - Local Storage
+    - Número de cliente
+- Hospedagem (Github)
+  - Inserção de dados
+  - Cálculo do imposto
 
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
+Os componentes da solução são apresentados na figura:
+
+![Arquitetura final](images/Workflow.png)
 
 
 # Avaliação da Aplicação 2
@@ -308,7 +287,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ![WhatsApp Image 2022-07-04 at 11 51 08](https://user-images.githubusercontent.com/15385678/177179825-e41089b4-d0c8-4c88-8334-f1e4fce12bbb.jpeg)
 - Caso Necessario Acessar o Blog De Artigos
 - ![WhatsApp Image 2022-07-04 at 11 53 00](https://user-images.githubusercontent.com/15385678/177179885-9e18e0ad-ff8f-4f4c-83bd-febcdc9cf4bc.jpeg)
-.
+
 
 
 ## Plano de Testes
