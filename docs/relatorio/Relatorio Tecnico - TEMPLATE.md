@@ -309,25 +309,14 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 - Caso Necessario Acessar o Blog De Artigos
 - ![WhatsApp Image 2022-07-04 at 11 53 00](https://user-images.githubusercontent.com/15385678/177179885-9e18e0ad-ff8f-4f4c-83bd-febcdc9cf4bc.jpeg)
 .
-......  COLOQUE AQUI O SEU TEXTO ......
 
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
 
 ## Plano de Testes
 
-![image](https://user-images.githubusercontent.com/15385678/176791153-68466d67-7e9f-49bc-8ecd-010696064d94.png)
 
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
+![planodetestes](https://user-images.githubusercontent.com/15385678/177181376-e696c8ab-5502-4540-8c55-a30019ceb711.png)
+
+
 
 ## Ferramentas de Testes (Opcional)
 
