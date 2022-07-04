@@ -255,11 +255,11 @@ Neste projeto, html, css, bootstrap e font awesome são usados para estilizar e 
 
 No navegador, o usuário acessa o host através da url e se depara com a tela incial
 
-![Site inicial](images/Inicio template.png)
+![Site inicial](images/Iniciotemplate.png)
 
 Ao clicar em teste agora, o cliente é levado ao cálculo do imposto
 
-![Calculo inicial](images/Simulação template.png)
+![Calculo inicial](images/Simulaçãotemplate.png)
 
 O cliente também pode ler notícias, contatar suporte e acessar links relacionados, este workflow foi mantido até a presente data
 
