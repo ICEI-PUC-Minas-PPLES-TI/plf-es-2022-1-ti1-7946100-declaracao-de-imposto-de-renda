@@ -302,6 +302,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 # Avaliação da Aplicação 2
 - Acessar o site
 ![WhatsApp Image 2022-07-04 at 11 50 05](https://user-images.githubusercontent.com/15385678/177179417-c0154a5a-fc0a-4bd9-a9cf-d0cfe29824d2.jpeg)
+- Criar Seu Perfil De Usuario
+![WhatsApp Image 2022-07-04 at 11 51 07](https://user-images.githubusercontent.com/15385678/177179714-19a3bd87-ae22-4537-a558-2b3fcb09a4ef.jpeg)
+- Acessar seu relatorio 
+![WhatsApp Image 2022-07-04 at 11 51 08](https://user-images.githubusercontent.com/15385678/177179825-e41089b4-d0c8-4c88-8334-f1e4fce12bbb.jpeg)
+- Caso Necessario Acessar o Blog De Artigos
+- ![WhatsApp Image 2022-07-04 at 11 53 00](https://user-images.githubusercontent.com/15385678/177179885-9e18e0ad-ff8f-4f4c-83bd-febcdc9cf4bc.jpeg)
+.
 ......  COLOQUE AQUI O SEU TEXTO ......
 
 > Apresente os cenários de testes utilizados na realização dos testes da
