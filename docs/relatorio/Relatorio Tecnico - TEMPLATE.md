@@ -314,7 +314,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ## Plano de Testes
 
 
-![planodetestes](https://user-images.githubusercontent.com/15385678/177181376-e696c8ab-5502-4540-8c55-a30019ceb711.png)
+![image](https://user-images.githubusercontent.com/15385678/177189774-c542576f-13c2-47d4-9dae-bc86bb7b270f.png)
 
 
 
@@ -340,12 +340,21 @@ Teste 2:
 ![r1](https://user-images.githubusercontent.com/15385678/177183704-5fe0e5bb-facf-423a-8ae6-ebb50a3e1706.png)
 
 Teste 3:
+- Entrada de Dados na pagina de simulacao
+
+![preencha](https://user-images.githubusercontent.com/15385678/177191032-4b01b20e-ca37-46fc-878c-c34c8e07cd92.png)
+
+Teste 4:
+- Salvar os dados no localstorage
 
 
+![localstorage](https://user-images.githubusercontent.com/15385678/177191411-ec9595df-615b-44b2-8543-1e6e924c023c.png)
 
 
+Teste 5:
+- Relatorio emitido no final do processo, teste de funcionalidade
 
-
+![emc](https://user-images.githubusercontent.com/15385678/177191581-14445a47-3226-4480-b7a3-2f095c0db8cd.png)
 
 
 ......  COLOQUE AQUI O SEU TEXTO ......
