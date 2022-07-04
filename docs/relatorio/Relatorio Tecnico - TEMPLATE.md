@@ -329,6 +329,20 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
 
 ## Registros de Testes
+Teste 1:
+- Testar a responsividade do site
+![teste1](https://user-images.githubusercontent.com/15385678/177181849-117c5519-9343-488d-85ad-967c5d4ac755.png)
+Teste 2:
+- Testar o redirecionamento do botao " simulacao "
+https://user-images.githubusercontent.com/15385678/177182249-56f7abf1-3d17-4539-bb18-15d4e9296939.mp4
+Teste 3:
+
+
+
+
+
+
+
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
