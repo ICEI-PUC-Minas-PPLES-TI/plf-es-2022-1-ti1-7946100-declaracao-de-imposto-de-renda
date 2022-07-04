@@ -331,11 +331,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ## Registros de Testes
 Teste 1:
 - Testar a responsividade do site
+
 ![teste1](https://user-images.githubusercontent.com/15385678/177181849-117c5519-9343-488d-85ad-967c5d4ac755.png)
 
 Teste 2:
 - Testar o redirecionamento do botao " simulacao "
-![redirecionamento](https://user-images.githubusercontent.com/15385678/177182923-ed735d46-3e45-4a00-b6f0-f1b590911334.gif)
+
+![r1](https://user-images.githubusercontent.com/15385678/177183704-5fe0e5bb-facf-423a-8ae6-ebb50a3e1706.png)
 
 Teste 3:
 
