@@ -300,7 +300,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 
 # Avaliação da Aplicação 2
-
+- Acessar o site
+![WhatsApp Image 2022-07-04 at 11 50 05](https://user-images.githubusercontent.com/15385678/177179417-c0154a5a-fc0a-4bd9-a9cf-d0cfe29824d2.jpeg)
 ......  COLOQUE AQUI O SEU TEXTO ......
 
 > Apresente os cenários de testes utilizados na realização dos testes da
