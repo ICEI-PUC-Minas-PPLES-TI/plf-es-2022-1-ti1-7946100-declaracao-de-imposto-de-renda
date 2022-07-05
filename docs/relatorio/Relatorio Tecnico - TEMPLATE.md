@@ -297,29 +297,29 @@ Os componentes da solução são apresentados na figura:
 
 ## Registros de Testes
 Teste 1:
-- Testar a responsividade do site
+- Testar a responsividade do site, ocorreu como o esperado.
 
 ![teste1](https://user-images.githubusercontent.com/15385678/177181849-117c5519-9343-488d-85ad-967c5d4ac755.png)
 
 Teste 2:
-- Testar o redirecionamento do botao " simulacao "
+- Testar o redirecionamento do botao " simulacao ", ocorreu como o esperado.
 
 ![r1](https://user-images.githubusercontent.com/15385678/177183704-5fe0e5bb-facf-423a-8ae6-ebb50a3e1706.png)
 
 Teste 3:
-- Entrada de Dados na pagina de simulacao
+- Entrada de Dados na pagina de simulacao, ocorreu como o esperado.
 
 ![preencha](https://user-images.githubusercontent.com/15385678/177191032-4b01b20e-ca37-46fc-878c-c34c8e07cd92.png)
 
 Teste 4:
-- Salvar os dados no localstorage
+- Salvar os dados no localstorage, ocorreu como o esperado.
 
 
 ![localstorage](https://user-images.githubusercontent.com/15385678/177191411-ec9595df-615b-44b2-8543-1e6e924c023c.png)
 
 
 Teste 5:
-- Relatorio emitido no final do processo, teste de funcionalidade
+- Relatorio emitido no final do processo, ocorreu como o esperado.
 
 ![emc](https://user-images.githubusercontent.com/15385678/177191581-14445a47-3226-4480-b7a3-2f095c0db8cd.png)
 
@@ -354,9 +354,3 @@ Sobre IRRF: https://ajuda.modalmais.com.br/hc/pt-br/articles/360056937654-O-que-
 Sobre Diferenca entre custos, despesas e investimentos: https://www.whow.com.br/diferencas-entre-custos-despesas-e-investimentos/
 
 Sobre Pensao por morte: https://ingracio.adv.br/pensao-por-morte-reforma-da-previdencia/
-
-
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
