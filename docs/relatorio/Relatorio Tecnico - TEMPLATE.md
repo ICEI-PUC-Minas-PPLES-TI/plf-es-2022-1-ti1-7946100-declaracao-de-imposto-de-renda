@@ -293,13 +293,12 @@ Os componentes da solução são apresentados na figura:
 ## Plano de Testes
 |ID| Plano De Testes                                             |
 |--|-------------------------------------------------------|
-|01| Deve-se respeitar cada sprint |
-|02| Todas as telas devem estar parcialmente responsivas  |
-|03| Não se deve armazenar dados sensíveis. |
-|04| As vans devem estar com todos os documentos em dia  |
-|05| As vans devem ter lugares disponíveis  |
+|01| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada. |
+|02| Os botoes da pagina principal deverao estar redirecionando para suas paginas de destino.  |
+|03| Na pagina de simulacao os inputs deverao estar funcionando. |
+|04| Os dados recolhidos na simulacao deverao ser armazenado no localstorage. |
+|05| Apos o usuario preencher todos seus dados o sistema devera retornar seu relatorio.  |
 
-![image](https://user-images.githubusercontent.com/15385678/177189774-c542576f-13c2-47d4-9dae-bc86bb7b270f.png)
 
 ## Registros de Testes
 Teste 1:
