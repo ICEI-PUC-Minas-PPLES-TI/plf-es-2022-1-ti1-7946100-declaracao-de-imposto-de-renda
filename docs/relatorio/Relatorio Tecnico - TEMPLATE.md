@@ -280,9 +280,9 @@ Os componentes da solução são apresentados na figura:
 
 # Avaliação da Aplicação 2
 - Acessar o site
-![WhatsApp Image 2022-07-04 at 11 50 05](https://user-images.githubusercontent.com/15385678/177179417-c0154a5a-fc0a-4bd9-a9cf-d0cfe29824d2.jpeg)
+![image](https://user-images.githubusercontent.com/15385678/177371086-fc9b1ac6-830f-4d22-b749-c5ea64742bfe.png)
 - Criar Seu Perfil De Usuario
-![image](https://user-images.githubusercontent.com/15385678/177356639-001b182d-bddb-44df-8153-2e490c995394.png)
+![image](https://user-images.githubusercontent.com/15385678/177371140-f069c453-8f72-4fc6-80f4-4a5c5c1595ee.png)
 - Acessar seu relatorio 
 ![WhatsApp Image 2022-07-04 at 11 51 08](https://user-images.githubusercontent.com/15385678/177179825-e41089b4-d0c8-4c88-8334-f1e4fce12bbb.jpeg)
 - Caso Necessario Acessar o Blog De Artigos
@@ -304,12 +304,12 @@ Os componentes da solução são apresentados na figura:
 Teste 1:
 - Testar a responsividade do site, ocorreu como o esperado.
 
-![teste1](https://user-images.githubusercontent.com/15385678/177181849-117c5519-9343-488d-85ad-967c5d4ac755.png)
+![image](https://user-images.githubusercontent.com/15385678/177371289-667fb5e2-30d6-4d5a-abac-1af647636824.png)
 
 Teste 2:
-- Testar o redirecionamento do botao " simulacao ", ocorreu como o esperado.
+- Testar se os botoes da pagina principal estao redirecionando.
 
-![r1](https://user-images.githubusercontent.com/15385678/177183704-5fe0e5bb-facf-423a-8ae6-ebb50a3e1706.png)
+![pri](https://user-images.githubusercontent.com/15385678/177371661-0ab8501a-c6ef-4356-81b9-d8f55178b321.png)
 
 Teste 3:
 - Entrada de Dados na pagina de simulacao, ocorreu como o esperado.
@@ -327,9 +327,6 @@ Teste 5:
 - Relatorio emitido no final do processo, ocorreu como o esperado.
 
 ![emc](https://user-images.githubusercontent.com/15385678/177191581-14445a47-3226-4480-b7a3-2f095c0db8cd.png)
-
-
-
 
 
 # Referências
