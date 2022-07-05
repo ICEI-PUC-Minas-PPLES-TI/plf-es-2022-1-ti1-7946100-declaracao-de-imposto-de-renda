@@ -302,9 +302,10 @@ Os componentes da solução são apresentados na figura:
 
 ## Registros de Testes
 Teste 1:
-- Testar a responsividade do site, ocorreu como o esperado.
+- Testar a responsividade do site em dispositivos mobiles, ocorreu como o esperado.
 
-![image](https://user-images.githubusercontent.com/15385678/177371289-667fb5e2-30d6-4d5a-abac-1af647636824.png)
+![image](https://user-images.githubusercontent.com/15385678/177420863-940f5df4-62db-49d3-81b9-2b00bf70616d.png)
+
 
 Teste 2:
 - Testar se os botoes da pagina principal estao redirecionando.
