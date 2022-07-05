@@ -284,7 +284,7 @@ Os componentes da solução são apresentados na figura:
 - Criar Seu Perfil De Usuario
 ![image](https://user-images.githubusercontent.com/15385678/177371140-f069c453-8f72-4fc6-80f4-4a5c5c1595ee.png)
 - Acessar seu relatorio 
-![WhatsApp Image 2022-07-04 at 11 51 08](https://user-images.githubusercontent.com/15385678/177179825-e41089b4-d0c8-4c88-8334-f1e4fce12bbb.jpeg)
+![image](https://user-images.githubusercontent.com/15385678/177420715-ad71ee6c-bfcf-4776-aea7-ada04791296a.png)
 - Caso Necessario Acessar o Blog De Artigos
 - ![WhatsApp Image 2022-07-04 at 11 53 00](https://user-images.githubusercontent.com/15385678/177179885-9e18e0ad-ff8f-4f4c-83bd-febcdc9cf4bc.jpeg)
 
@@ -326,7 +326,7 @@ Teste 4:
 Teste 5:
 - Relatorio emitido no final do processo, ocorreu como o esperado.
 
-![emc](https://user-images.githubusercontent.com/15385678/177191581-14445a47-3226-4480-b7a3-2f095c0db8cd.png)
+![image](https://user-images.githubusercontent.com/15385678/177420685-947e7aa5-b8a5-4c59-8292-6944eb40920b.png)
 
 
 # Referências
