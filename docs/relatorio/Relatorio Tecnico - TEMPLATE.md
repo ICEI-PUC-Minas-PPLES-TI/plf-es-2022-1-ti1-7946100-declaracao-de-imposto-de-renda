@@ -328,7 +328,6 @@ Teste 5:
 
 
 # Referências
-
 - Sites acessados para desenvolver os artigos:
 
 Site oficial da Receita Federal: https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda
