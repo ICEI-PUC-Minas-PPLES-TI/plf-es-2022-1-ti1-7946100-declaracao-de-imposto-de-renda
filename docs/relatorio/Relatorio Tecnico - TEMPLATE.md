@@ -341,9 +341,8 @@ Teste 5:
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
 - Sites acessados para desenvolver os artigos:
+
 Sobre imposto de renda: https://www.leoa.com.br/blog/imposto-de-renda
 
 Sobre Inss: https://blog.nubank.com.br/o-que-e-inss/
