@@ -291,7 +291,13 @@ Os componentes da solução são apresentados na figura:
 
 
 ## Plano de Testes
-
+|ID| Plano De Testes                                             |
+|--|-------------------------------------------------------|
+|01| Deve-se respeitar cada sprint |
+|02| Todas as telas devem estar parcialmente responsivas  |
+|03| Não se deve armazenar dados sensíveis. |
+|04| As vans devem estar com todos os documentos em dia  |
+|05| As vans devem ter lugares disponíveis  |
 
 ![image](https://user-images.githubusercontent.com/15385678/177189774-c542576f-13c2-47d4-9dae-bc86bb7b270f.png)
 
