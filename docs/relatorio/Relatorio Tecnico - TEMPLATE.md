@@ -282,7 +282,7 @@ Os componentes da solução são apresentados na figura:
 - Acessar o site
 ![WhatsApp Image 2022-07-04 at 11 50 05](https://user-images.githubusercontent.com/15385678/177179417-c0154a5a-fc0a-4bd9-a9cf-d0cfe29824d2.jpeg)
 - Criar Seu Perfil De Usuario
-![WhatsApp Image 2022-07-04 at 11 51 07](https://user-images.githubusercontent.com/15385678/177179714-19a3bd87-ae22-4537-a558-2b3fcb09a4ef.jpeg)
+![image](https://user-images.githubusercontent.com/15385678/177356639-001b182d-bddb-44df-8153-2e490c995394.png)
 - Acessar seu relatorio 
 ![WhatsApp Image 2022-07-04 at 11 51 08](https://user-images.githubusercontent.com/15385678/177179825-e41089b4-d0c8-4c88-8334-f1e4fce12bbb.jpeg)
 - Caso Necessario Acessar o Blog De Artigos
