@@ -343,7 +343,18 @@ Teste 5:
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
+- Sites acessados para desenvolver os artigos:
+Sobre imposto de renda: https://www.leoa.com.br/blog/imposto-de-renda
+Sobre Inss: https://blog.nubank.com.br/o-que-e-inss/
+Sobre Pensão alimentícia:https://marcojean.com/pensao-alimenticia/
+Sobre Renda Bruta: https://editalconcursosbrasil.com.br/blog/financas-pessoais_renda-bruta-saiba-o-que-e-e-o-que-significa/
+Sobre Declaracao De Criptosmoedas: https://blog.nubank.com.br/imposto-de-renda-criptomoedas/
+Sobre Aliquota: https://www.suno.com.br/artigos/aliquota/
+Sobre Bitcoins: https://economia.uol.com.br/imposto-de-renda/noticias/redacao/2022/04/27/imposto-de-renda-2022-comprou-bitcoins-acima-de-r-5000-precisa-declarar.htm
+Sobre Base de calculo: https://meutudo.com.br/blog/base-de-calculo-o-que-e-como-e-feita/
+Sobre IRRF: https://ajuda.modalmais.com.br/hc/pt-br/articles/360056937654-O-que-%C3%A9-IRRF-
+Sobre Diferenca entre custos, despesas e investimentos: https://www.whow.com.br/diferencas-entre-custos-despesas-e-investimentos/
+Sobre Pensao por morte: https://ingracio.adv.br/pensao-por-morte-reforma-da-previdencia/
 > no desenvolvimento do trabalho.
 > 
 > **Links Úteis**:
