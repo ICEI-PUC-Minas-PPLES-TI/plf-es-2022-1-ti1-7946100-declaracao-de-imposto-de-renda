@@ -280,7 +280,7 @@ Os componentes da solução são apresentados na figura:
 
 # Avaliação da Aplicação 2
 - Acessar o site
-![image](https://user-images.githubusercontent.com/15385678/177371086-fc9b1ac6-830f-4d22-b749-c5ea64742bfe.png)
+![image](https://user-images.githubusercontent.com/15385678/177421019-d0b1c6f8-83f4-4d67-b1e3-6b8a7aebcad2.png)
 - Criar Seu Perfil De Usuario
 ![image](https://user-images.githubusercontent.com/15385678/177371140-f069c453-8f72-4fc6-80f4-4a5c5c1595ee.png)
 - Acessar seu relatorio 
@@ -310,7 +310,7 @@ Teste 1:
 Teste 2:
 - Testar se os botoes da pagina principal estao redirecionando.
 
-![pri](https://user-images.githubusercontent.com/15385678/177371661-0ab8501a-c6ef-4356-81b9-d8f55178b321.png)
+![impo](https://user-images.githubusercontent.com/15385678/177421301-e18a4392-55b3-4f1b-82cc-3f78a4d5480b.png)
 
 Teste 3:
 - Entrada de Dados na pagina de simulacao, ocorreu como o esperado.
