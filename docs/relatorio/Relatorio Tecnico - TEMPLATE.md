@@ -295,18 +295,6 @@ Os componentes da solução são apresentados na figura:
 
 ![image](https://user-images.githubusercontent.com/15385678/177189774-c542576f-13c2-47d4-9dae-bc86bb7b270f.png)
 
-
-
-## Ferramentas de Testes (Opcional)
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
-
 ## Registros de Testes
 Teste 1:
 - Testar a responsividade do site
@@ -342,6 +330,8 @@ Teste 5:
 # Referências
 
 - Sites acessados para desenvolver os artigos:
+
+Site oficial da Receita Federal: https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda
 
 Sobre imposto de renda: https://www.leoa.com.br/blog/imposto-de-renda
 
