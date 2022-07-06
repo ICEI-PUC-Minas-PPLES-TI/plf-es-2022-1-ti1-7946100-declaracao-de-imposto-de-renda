@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+body {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+p {
+    margin: 0px;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+
+.row {
+    justify-content: center;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 25px;
+}
+
+.periodo fieldset legend {
+    font-size: 20px;
+}
+
+.financeiro,
+.tipo-investimentos {
+    text-align: left;
+    border: 1px solid #b8b8b8;
+    border-radius: 5px;
+    padding: 10px;
+    background: #fff;
+    width: 100%;
+}
+
+.rendimentos>h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.rendimentos>p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.tipo-investimentos>h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.rendimentos div {
+    margin-bottom: 10px;
+}
+
+.rendimentos div input[type="text"] {
+    padding-left: 5px;
+    outline: 0;
+    font-size: 1em;
+    width: 100%;
+    max-width: 200px;
+}
+
+.rendimentos button {
+    border: 1px solid #000000;
+    padding: 3px 5px;
+}
+
+.rendimentos .periodo {
+    margin: 25px 0;
+    text-align: center;
+}
+
+.good,
+.bad {
+    border-radius: 3px;
+    padding: 4px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    background-color: #98ff95;
+}
+
+.bad {
+    background-color: #ff9595;
+}
+
+.investimentoRadioButton {
+    display: inline-block;
+}
+
+.formInvestimentos {
+    margin-top: 30px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tituloInvestimento {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.expandir {
+    margin: 20px;
+}
+
+.tipo-investimentos>.opcoesInvestimento {
+    text-align: center;
+}
+
+.opcoesInvestimento input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.tipo-investimentos button {
+    margin-top: 10px;
+    border: 1px solid #000000;
+    padding: 3px 5px;
+}
+
+.opcoesInvestimento {
+    margin-bottom: 10px;
+}
+
+.containerInput {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.declarandoInvestimento {
+    text-align: left;
+}
+
+.declarandoInvestimento input {
+    padding-left: 5px;
+    outline: 0;
+    font-size: 1em;
+    margin-left: 4px;
+    margin-bottom: 3px;
+}
+
+.declarandoInvestimento i {
+    margin-right: 4px;
+}
+
+table {
+    margin-top: 25px;
+    line-height: 40px;
+}
+
+tr {
+    border-color: #6e6e6e;
+    border-style: double;
+    border-width: 5px;
+    font-size: 25px;
+}
+
+tr:nth-child(odd) {
+    background: #dbdbdb;
+}
+
+tr:nth-child(even) {
+    background: #f4f4f4;
+}
+
+.containerRelatorio {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.campoRelatorio {
+    background: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    min-height: 300px;
+    box-shadow: 0 0 1em #979797;
+}
+
+.botaoRelatorio {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #0074da;
+    color: #fff;
+}
+
+.relatorioAberto {
+    display: block;
+}
+
+.relatorioFechado {
+    display: none;
+}
+
+#perfilTitulo {
+    margin-bottom: 50px;
+}
+
+.perfilTitulo {
+    display: none;
+}
+
+.duvidas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #1662a5;
+    padding: 20px;
+    border-radius: 25px;
+    margin: 25px;
+}
+
+.duvidasContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    max-width: 500px;
+}
+
+.duvidasImagem {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 1em #000;
+    margin-bottom: 10px;
+}
+
+.duvidasTitulo {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.duvidasParagrafo {
+    color: #fff;
+    padding: 0 25px;
+    text-align: center;
+}
+
+.info {
+    color: #fff;
+    cursor: help;
+}
+
+.openpopover {
+    text-align: start;
+    color: #000000;
+}
+
+.openpopover__title {
+    margin: 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.msgErro {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(129, 0, 0);
+    width: 100%;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.tiraErro {
+    background-color: #fff;
+    color: black;
+}
+
+.hithere {
+    animation: hithere 1.5s ease infinite;
+}
+
+.btnRefazer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.refazerSimulacao, .btnSimular {
+    border: 1px solid #c2c2c2;
+    text-align: center;
+    background-color: #197ace;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: #fff;
+    transition: 0.5s transform ease-in-out;
+}
+
+.refazerSimulacao:hover, .btnSimular:hover {
+    transform: scale(1.05);
+}
+
+.input_main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 200px;
+} 
+
+@keyframes hithere {
+    30% {
+        transform: scale(1.05);
+    }
+    40%,
+    60% {
+        transform: rotate(-5deg) scale(1.05);
+    }
+    50% {
+        transform: rotate(5deg) scale(1.05);
+    }
+    70% {
+        transform: rotate(0deg) scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    .financeiro {
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .input_main {
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 150PX;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .duvidas {
+        flex-wrap: wrap;
+        justify-content: center;
+        background: none;
+        border-radius: 0px;
+        padding: 0px;
+    }
+    .duvidasContainer {
+        margin: 20px;
+        background: #004f94;
+        border-radius: 25px;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .financeiro {
+        width: 720px;
+    }
+
+    .input_main {
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 100PX;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .financeiro {
+        width: 400px;
+    }
+}

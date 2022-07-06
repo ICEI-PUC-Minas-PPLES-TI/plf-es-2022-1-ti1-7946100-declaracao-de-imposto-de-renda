@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+body {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 25px 10%;
+}
+
+.titulo {
+    font-size: 75px;
+}
+
+.paragrafoSobre {
+    font-size: 25px;
+    text-align: justify;
+    padding: 0 40px;
+}
+
+.integrantesTitulo {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.integrantes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    background: #ffffff80;
+    border-radius: 10px;
+}
+
+.integrantesPerfil {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.integrantesImagem {
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+    box-shadow: 0 0 1em #000;
+}
+
+.fa-brands {
+    font-size: 50px;
+    cursor: pointer;
+    margin: 0 20px 10px;
+    transition: 0.5s transform ease-in-out;
+}
+
+.fa-brands:hover {
+    transform: scale(1.1);
+}
+
+.fa-github {
+    color: #000;
+}
+
+.fa-linkedin-in {
+    color: #0a66c2;
+}
+
+@media screen and (max-width: 1200px) {
+    .titulo {
+        font-size: 60px;
+    }
+    .integrantesTitulo {
+        font-size: 40px;
+    }
+    .paragrafoSobre {
+        font-size: 15px;
+        text-align: justify;
+        padding: 0 10%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .app {
+        padding: 25px 10%;
+    }
+    .titulo {
+        font-size: 50px;
+    }
+    .integrantesTitulo {
+        font-size: 30px;
+    }
+    .paragrafoSobre {
+        font-size: 15px;
+        text-align: justify;
+        padding: 0;
+    }
+    .rodape {
+        margin-top: 20px !important;
+    }
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/simulacao.css" />
+    <link rel="stylesheet" href="css/template.css">
+
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+    <title>IRRFácil</title>
+</head>
+
+<body>
+    <div class="cabecalho">
+        <a href="index.html" class="paginas">Home</a>
+        <a href="simulacao.html" class="paginas">Simulação</a>
+        <a href="artigos.html" class="paginas">Artigos</a>
+        <a href="sobre.html" class="paginas">Sobre</a>
+    </div>
+    <div class="app">
+        <p class="titulo" id="perfilTitulo"><i class="fa-solid fa-user-pen"></i> Crie seu perfil de usuário</p class="titulo">
+
+        <section class="container perfil">
+            <div class="row">
+
+                <div class="col-6 financeiro">
+                    <div class="rendimentos">
+                        <h4>Digite abaixo os valores obtidos de cada tipo de rendimento tributável</h4>
+                        <p>Caso não obteve valores, preencha com 0 (zero)</p>
+                        <p>*Campo obrigatório</p>
+
+                        <div class="periodo">
+                            <fieldset>
+                                <legend>Você prefere inserir de forma:</legend>
+                                <label>*Mensal:
+                                <input type="radio" class="mensalRadio" name="periodo" />
+                            </label>
+                                <label>*Anual:
+                                <input type="radio" class="anualRadio" name="periodo" />
+                            </label>
+                            </fieldset>
+                        </div>
+
+                        <div class="containerInput">
+                            <div class="input_main">
+                                <div><i class="fa-solid fa-money-bill"></i> <span>*Renda Bruta</span></div>
+                                <div><input type="text" name="inputRendaBruta" id="inputRendaBruta" class="inputRendabruta" /></div>
+                            </div>
+
+                            <div class="input_main">
+                                <div><i class="fa-solid fa-baby"></i> <span>*Número de dependentes</span></div>
+                                <div><input type="text" name="inputNumeroDependentes" id="inputNumeroDependentes" class="inputNumeroDependentes" /></div>
+                                
+                                
+                            </div>
+
+                            <div class="input_main">
+                                <div><i class="fa-solid fa-money-bill-trend-up"></i> <span>*13º salário</span></div>
+                                <div><input type="text" name="inputDecimoTerceiro" id="inputDecimoTerceiro" class="inputDecimoTerceiro" /></div>
+                            </div>
+
+                            <div class="input_main">
+                                <div><i class="fa-solid fa-house-user"></i> <span>*Aluguel</span></div>
+                                <div><input type="text" name="inputAluguel" id="inputAluguel" class="inputAluguel" /></div>
+                            </div>
+
+                            <div class="input_main">
+                                <div><i class="fa-solid fa-burger"></i> <span>*Pensão alimentícia</span></div>
+                                <div><input type="text" name="inputPensaoAlimenticia" id="inputPensaoAlimenticia" class="inputPensaoAlimenticia" /></div>
+                            </div>
+
+                            <div class="input_main">
+                                <div><i class="fa-solid fa-hand-holding-dollar"></i> <span>*Auxílio Emergencial</span></div>
+                                <div><input type="text" name="inputAuxilio" id="inputAuxilio" class="inputAuxilio" /></div>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-chart-line"></i> <span>Obteve algum lucro provindo de
+                                investimentos?</span>
+                                <fieldset class="investimentoRadioButton">
+                                    <label>*Sim
+                                    <input type="radio" class="investimentoTrue" name="investimento" onchange="geraCampoInvestimento(rInvestimentoTrue, rInvestimentoFalse)" />
+                                </label>
+                                    <label>*Não
+                                    <input type="radio" class="investimentoFalse" name="investimento" onchange="geraCampoInvestimento(rInvestimentoTrue, rInvestimentoFalse)" />
+                                </label>
+                                </fieldset>
+                            </div>
+
+                        </div>
+
+                        <div class="formInvestimentos">
+                            <p class="tituloInvestimento">Especifique abaixo o tipo de investimento feito</p>
+                            <p>(*Selecione ao menos um)</p>
+
+                            <div class="opcoesInvestimento">
+                                <input type="checkbox" name="acoes" class="acoes" onchange="ManipulaInputInvestimento()"> <span>*Ações</span>
+                                <br>
+                                <input type="checkbox" name="tesouro" class="tesouro" onchange="ManipulaInputInvestimento()"> <span>*Tesouro Direto</span>
+                                <br>
+                                <input type="checkbox" name="fundos" class="fundos" onchange="ManipulaInputInvestimento()"> <span>*Fundo Imobiliário</span>
+                                <br>
+                                <input type="checkbox" name="fixa" class="fixa" onchange="ManipulaInputInvestimento()"> <span>*Renda Fixa</span>
+                            </div>
+
+                            <div class="declarandoInvestimento"></div>
+                        </div>
+
+                    </div>
+                    <div class="mensagemErro"></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="relatorioFechado" id="relatorio">
+            <div class="caixa">
+                <div class="container campoRelatorio">
+                    <h1>Relatório</h1>
+                    <table class="campoInformacoes"></table>
+                </div>
+                
+                <div class="btnRefazer"><button class="refazerSimulacao" onclick="voltarSimulacao()">Iniciar outra simulação</button></div>
+            </div>
+        </div>
+        <div class="containerRelatorio">
+            <button class="btnSimular" id="btnSimular"><i class="fa-solid fa-paper-plane"></i> Simular</button>
+        </div>
+    </div>
+
+    <div class="duvidas">
+        <div class="duvidasContainer">
+            <img src="assets/pagamento.jpg" alt="" class="duvidasImagem">
+            <span class="primeirainfo info duvidasTitulo hithere">Pagamento</span>
+            <p class="duvidasParagrafo">Saiba como pagar o imposto de renda e eventuais multas de atraso.</p>
+        </div>
+        <div class="duvidasContainer">
+            <img src="assets/pagadores.jpg" alt="" class="duvidasImagem">
+            <span class="segundainfo info duvidasTitulo hithere">Quem deve pagar</span>
+            <p class="duvidasParagrafo">Os cidadãos, residentes no Brasil, que no ano-calendário se enquadraram em uma das situações a seguir estão legalmente obrigadas a enviar a declaração de imposto de renda à Receita Federal.
+            </p>
+        </div>
+        <div class="duvidasContainer">
+            <img src="assets/motivo.jpeg" alt="" class="duvidasImagem">
+            <span class="terceirainfo info duvidasTitulo hithere">Por que é cobrado?</span>
+            <p class="duvidasParagrafo">A explicação para o pagamento do Imposto de Renda é de cunho social.</p>
+        </div>
+    </div>
+
+    <div class="duvidas">
+        <div class="duvidasContainer">
+            <img src="assets/onde.jpg" alt="" class="duvidasImagem">
+            <span class="quartainfo info duvidasTitulo hithere">Para onde vai esse dinheiro?</span>
+            <p class="duvidasParagrafo">Ministério da Fazenda arrecada o imposto e faz o que dele?</p>
+        </div>
+        <div class="duvidasContainer">
+            <img src="assets/restituicao.png" alt="" class="duvidasImagem">
+            <span class="quintainfo info duvidasTitulo hithere">Restituição do Imposto</span>
+            <p class="duvidasParagrafo"> A restituição do imposto de renda é a devolução do valor do imposto pago a mais durante o ano-calendário.</p>
+        </div>
+        <div class="duvidasContainer">
+            <img src="assets/idade.jpeg" alt="" class="duvidasImagem">
+            <span class="sextainfo info duvidasTitulo hithere">Isentos da declaração</span>
+            <p class="duvidasParagrafo">Quem está isento de declarar o imposto de renda?</p>
+        </div>
+    </div>
+
+    <div>
+        <footer class="rodape">Copyright © 2022. Todos direitos reservados.</footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/2f4b8f5acd.js" crossorigin="anonymous"></script>
+    <script src="js/simulacao.js"></script>
+    <script src="js/relatorio.js"></script>
+    <script src="js/popover.js"></script>
+</body>
+
+</html>

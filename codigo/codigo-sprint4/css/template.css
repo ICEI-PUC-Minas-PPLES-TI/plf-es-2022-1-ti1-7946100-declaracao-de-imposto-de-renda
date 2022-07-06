@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+body {
+    font-family: 'JetBrains Mono', monospace;
+    background: #cee8ffa1;
+    margin: 0;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-evenly;
+    background: #00305A;
+    box-shadow: 0 0 1em black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 100%;
+    min-width: 450px;
+}
+
+.paginas {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.paginas:hover {
+    background: #99caff;
+    color: #000;
+    font-weight: bold;
+}
+
+.rodape {
+    text-align: center;
+    padding: 10px;
+    background: #00305A;
+    color: #fff;
+    box-shadow: 0 0 1em black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: sticky;
+    margin-top: 50px;
+}
+
+.rodape p {
+    margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+    .cabecalho {
+        font-size: 10px;
+        min-width: 300px;
+    }
+}
