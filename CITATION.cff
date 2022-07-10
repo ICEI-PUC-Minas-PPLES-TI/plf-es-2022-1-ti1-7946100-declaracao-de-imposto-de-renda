@@ -1,19 +1,19 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: Declaracao De Imposto De Renda (IRRFACIL)
 authors:
+  - family-names: Afonso De Campos Faria Maciel
+    given-names: Pedro
   - family-names: 
-    given-names: 
+    given-names: Diogo
   - family-names: 
-    given-names: 
+    given-names: Henrique
   - family-names: 
-    given-names: 
+    given-names: Matheus
   - family-names: 
-    given-names: 
+    given-names: Davi
   - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
+    given-names: Victor
   - name-suffix: Professor
     affiliation: PUC Minas
     family-names: 
